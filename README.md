@@ -330,7 +330,7 @@
 ---
 
 <h2 align="center">
-  🤝 Connect with Me
+  📫 Get in Touch
 </h2>
 
 <div align="center">
