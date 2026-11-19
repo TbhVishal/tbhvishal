@@ -91,6 +91,51 @@
 ---
 
 <h2 align="center">
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" width="38" height="38" align="absmiddle" alt="" />
+  &nbsp;GitHub Activity & Performance
+</h2>
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="55%">
+        <img src="https://raw.githubusercontent.com/tbhvishal/tbhvishal/main/assets/stats/github-stats.svg" alt="Vishal's GitHub Stats" height="195" />
+      </td>
+      <td align="center" width="45%">
+        <img src="https://raw.githubusercontent.com/tbhvishal/tbhvishal/main/assets/stats/top-langs.svg" alt="Top Languages" height="195" />
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center">
+        <img src="https://raw.githubusercontent.com/tbhvishal/tbhvishal/main/assets/stats/streak-stats.svg" alt="GitHub Streak & Contributions" width="540" />
+      </td>
+    </tr>
+  </table>
+</div>
+
+---
+
+<h2 align="center">
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Party%20Popper.png" width="38" height="38" align="absmiddle" alt="" />
+  &nbsp;Achievements & Badges
+</h2>
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <a href="https://github.com/ryo-ma/github-profile-trophy">
+          <img src="https://github-profile-repo.vercel.app/?username=tbhvishal&theme=onedark&row=1&column=7&margin-h=15&margin-w=5&no-bg=true" alt="Trophies" width="100%" />
+        </a>
+      </td>
+    </tr>
+  </table>
+</div>
+
+
+---
+
+<h2 align="center">
   <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" width="38" height="38" align="absmiddle" alt="" />
   &nbsp;Open Source Contributions
 </h2>
@@ -273,51 +318,6 @@
   </details>
 </div>
 <!-- RECENT_CONTRIBUTIONS:END -->
-
----
-
-<h2 align="center">
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" width="38" height="38" align="absmiddle" alt="" />
-  &nbsp;GitHub Activity & Performance
-</h2>
-
-<div align="center">
-  <table>
-    <tr>
-      <td align="center" width="55%">
-        <img src="https://github-readme-stats-one-taupe.vercel.app/api?username=tbhvishal&show_icons=true&include_all_commits=true&count_private=true&theme=onedark&hide_border=false&border_radius=10&title_color=FED11E&icon_color=FED11E&text_bold=true" alt="Vishal's GitHub Stats" height="195" />
-      </td>
-      <td align="center" width="45%">
-        <img src="https://github-readme-stats-one-taupe.vercel.app/api/top-langs?username=tbhvishal&layout=compact&theme=onedark&hide_border=false&border_radius=10&title_color=FED11E&text_bold=true" alt="Top Languages" height="195" />
-      </td>
-    </tr>
-    <tr>
-      <td colspan="2" align="center">
-        <img src="https://streak-stats.demolab.com/?user=tbhvishal&theme=onedark&border_radius=10&hide_border=false&ring=FED11E&fire=FED11E&currStreakNum=FED11E" alt="GitHub Streak & Contributions" width="540" />
-      </td>
-    </tr>
-  </table>
-</div>
-
----
-
-<h2 align="center">
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Party%20Popper.png" width="38" height="38" align="absmiddle" alt="" />
-  &nbsp;Achievements & Badges
-</h2>
-
-<div align="center">
-  <table>
-    <tr>
-      <td align="center">
-        <a href="https://github.com/ryo-ma/github-profile-trophy">
-          <img src="https://github-profile-repo.vercel.app/?username=tbhvishal&theme=onedark&row=1&column=7&margin-h=15&margin-w=5&no-bg=true" alt="Trophies" width="100%" />
-        </a>
-      </td>
-    </tr>
-  </table>
-</div>
-
 
 ---
 

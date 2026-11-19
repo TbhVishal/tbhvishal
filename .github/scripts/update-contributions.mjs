@@ -222,12 +222,54 @@ function generateMarkdown(nodes) {
   return out;
 }
 
+async function updateStatsSvgs() {
+  const statsDir = path.resolve(process.cwd(), "assets", "stats");
+  if (!fs.existsSync(statsDir)) {
+    fs.mkdirSync(statsDir, { recursive: true });
+  }
+
+  const targets = [
+    {
+      file: "github-stats.svg",
+      url: "https://github-readme-stats-one-taupe.vercel.app/api?username=tbhvishal&show_icons=true&include_all_commits=true&count_private=true&theme=onedark&bg_color=00000000&hide_border=true&title_color=FED11E&icon_color=FED11E&text_bold=true",
+    },
+    {
+      file: "top-langs.svg",
+      url: "https://github-readme-stats-one-taupe.vercel.app/api/top-langs?username=tbhvishal&layout=compact&theme=onedark&bg_color=00000000&hide_border=true&title_color=FED11E&text_bold=true",
+    },
+    {
+      file: "streak-stats.svg",
+      url: "https://streak-stats.demolab.com/?user=tbhvishal&theme=onedark&border_radius=10&hide_border=true&background=00000000&ring=FED11E&fire=FED11E&currStreakNum=FED11E",
+    },
+  ];
+
+  await Promise.all(
+    targets.map(async (t) => {
+      try {
+        const res = await fetch(t.url);
+        if (res.ok) {
+          const svg = await res.text();
+          if (svg.includes("<svg")) {
+            fs.writeFileSync(path.join(statsDir, t.file), svg, "utf-8");
+            console.log(`Updated assets/stats/${t.file}`);
+          }
+        }
+      } catch (err) {
+        console.warn(`Could not update ${t.file}, keeping cached version:`, err.message);
+      }
+    })
+  );
+}
+
 async function run() {
   const readmePath = path.resolve(process.cwd(), "README.md");
   if (!fs.existsSync(readmePath)) {
     console.error(`README.md not found at ${readmePath}`);
     process.exit(1);
   }
+
+  // Update cached SVGs
+  await updateStatsSvgs();
 
   let readme = fs.readFileSync(readmePath, "utf-8");
   const nodes = await fetchPullRequests();
@@ -245,12 +287,12 @@ async function run() {
     readme = readme.replace(headingRegex, "");
   }
 
-  // Insert right before GitHub Activity & Performance (Rocket.png)
-  const rocketMarker = "Rocket.png";
-  const rocketIndex = readme.indexOf(rocketMarker);
-  if (rocketIndex !== -1) {
+  // Insert right before Connect with Me (Handshake.png)
+  const handshakeMarker = "Handshake.png";
+  const handshakeIndex = readme.indexOf(handshakeMarker);
+  if (handshakeIndex !== -1) {
     const h2Prefix = '<h2 align="center">';
-    const insertPos = readme.lastIndexOf(h2Prefix, rocketIndex);
+    const insertPos = readme.lastIndexOf(h2Prefix, handshakeIndex);
     if (insertPos !== -1) {
       readme = readme.slice(0, insertPos) + insertBlock + readme.slice(insertPos);
     } else {
