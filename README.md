@@ -226,7 +226,7 @@
   <details>
     <summary>
       <b>
-        Click to expand in-review & remaining contributions (6 repositories)
+        Click to expand in-review & remaining contributions (7 repositories)
       </b>
     </summary>
     <br/>
@@ -302,6 +302,20 @@
         </td>
         <td align="left" width="52%">
           <a href="https://github.com/BuilderIO/agent-native/pull/9039">fix(core): surface Telegram webhook errors and validate secret (#9018) (#9039)</a>
+        </td>
+        <td align="center" width="14%" nowrap>
+          <img src="https://img.shields.io/badge/Open_PR-238636?style=flat-square&logo=github&logoColor=white" alt="Open PR" />
+        </td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td align="left" width="34%">
+          <img src="https://github.com/unjs.png?size=64" width="28" height="28" align="absmiddle" style="border-radius: 6px;" />
+          &nbsp;<b><a href="https://github.com/unjs/ofetch">unjs/&#8203;ofetch</a></b>&nbsp;<sub>⭐&nbsp;5.4k</sub>
+        </td>
+        <td align="left" width="52%">
+          <a href="https://github.com/unjs/ofetch/pull/653">fix(utils): correctly join path when baseURL contains query string (#653)</a>
         </td>
         <td align="center" width="14%" nowrap>
           <img src="https://img.shields.io/badge/Open_PR-238636?style=flat-square&logo=github&logoColor=white" alt="Open PR" />
