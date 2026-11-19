@@ -83,9 +83,16 @@ function renderRepoRows(repoList, defaultStatus) {
   for (const r of repoList) {
     const avatarUrl = `https://github.com/${r.owner}.png?size=40`;
     const starText = r.stars > 0 ? `&nbsp;<sub><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" width="14" height="14" align="absmiddle" alt="" /> ${formatStars(r.stars)}</sub>` : "";
-    const prLinks = r.prs
-      .map((p) => `<a href="${p.url}">${sanitize(p.title)} (#${p.number})</a>`)
-      .join("<br/>");
+    const MAX_PR_SHOWN = 2;
+    const visiblePrs = r.prs
+      .slice(0, MAX_PR_SHOWN)
+      .map((p) => `<a href="${p.url}">${sanitize(p.title)} (#${p.number})</a>`);
+    if (r.prs.length > MAX_PR_SHOWN) {
+      const extraCount = r.prs.length - MAX_PR_SHOWN;
+      const authorFilterUrl = `https://github.com/${r.nameWithOwner}/pulls?q=author%3A${USERNAME}`;
+      visiblePrs.push(`<a href="${authorFilterUrl}"><sub><b>+${extraCount} more contribution${extraCount > 1 ? "s" : ""} &rarr;</b></sub></a>`);
+    }
+    const prLinks = visiblePrs.join("<br/>");
     const badge = defaultStatus === "MERGED"
       ? `<img src="https://img.shields.io/badge/Merged-8957E5?style=flat-square&logo=github&logoColor=white" alt="Merged" />`
       : `<img src="https://img.shields.io/badge/Open_PR-238636?style=flat-square&logo=github&logoColor=white" alt="Open PR" />`;
