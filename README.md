@@ -153,7 +153,7 @@
       <tr>
         <td align="left" width="34%">
           <img src="https://github.com/homarr-labs.png?size=64" width="28" height="28" align="absmiddle" style="border-radius: 6px;" />
-          &nbsp;<b><a href="https://github.com/homarr-labs/homarr">homarr-labs/&#8203;homarr</a></b>&nbsp;<sub>★&nbsp;5.4k</sub>
+          &nbsp;<b><a href="https://github.com/homarr-labs/homarr">homarr-labs/&#8203;homarr</a></b>&nbsp;<sub>⭐&nbsp;5.4k</sub>
         </td>
         <td align="left" width="52%">
           <a href="https://github.com/homarr-labs/homarr/pull/7545">fix(rss-feed): prioritize published date over updated for atom and youtube feeds (#7544) (#7545)</a>
@@ -167,7 +167,7 @@
       <tr>
         <td align="left" width="34%">
           <img src="https://github.com/Agenta-AI.png?size=64" width="28" height="28" align="absmiddle" style="border-radius: 6px;" />
-          &nbsp;<b><a href="https://github.com/Agenta-AI/agenta">Agenta-AI/&#8203;agenta</a></b>&nbsp;<sub>★&nbsp;4.9k</sub>
+          &nbsp;<b><a href="https://github.com/Agenta-AI/agenta">Agenta-AI/&#8203;agenta</a></b>&nbsp;<sub>⭐&nbsp;4.9k</sub>
         </td>
         <td align="left" width="52%">
           <a href="https://github.com/Agenta-AI/agenta/pull/8270">fix(annotation): replace evaluator testset column on sync to clear deleted fields (#8111) (#8270)</a>
@@ -181,7 +181,7 @@
       <tr>
         <td align="left" width="34%">
           <img src="https://github.com/embedpdf.png?size=64" width="28" height="28" align="absmiddle" style="border-radius: 6px;" />
-          &nbsp;<b><a href="https://github.com/embedpdf/embed-pdf-viewer">embedpdf/&#8203;embed-pdf-viewer</a></b>&nbsp;<sub>★&nbsp;4.7k</sub>
+          &nbsp;<b><a href="https://github.com/embedpdf/embed-pdf-viewer">embedpdf/&#8203;embed-pdf-viewer</a></b>&nbsp;<sub>⭐&nbsp;4.7k</sub>
         </td>
         <td align="left" width="52%">
           <a href="https://github.com/embedpdf/embed-pdf-viewer/pull/1069">fix(viewer-chrome): format comment timestamps with time and year (#1043) (#1069)</a>
@@ -195,7 +195,7 @@
       <tr>
         <td align="left" width="34%">
           <img src="https://github.com/lingdojo.png?size=64" width="28" height="28" align="absmiddle" style="border-radius: 6px;" />
-          &nbsp;<b><a href="https://github.com/lingdojo/kana-dojo">lingdojo/&#8203;kana-dojo</a></b>&nbsp;<sub>★&nbsp;3.9k</sub>
+          &nbsp;<b><a href="https://github.com/lingdojo/kana-dojo">lingdojo/&#8203;kana-dojo</a></b>&nbsp;<sub>⭐&nbsp;3.9k</sub>
         </td>
         <td align="left" width="52%">
           <a href="https://github.com/lingdojo/kana-dojo/pull/33775">content: add new japanese false friend (#33775)</a>
@@ -209,7 +209,7 @@
       <tr>
         <td align="left" width="34%">
           <img src="https://github.com/nagcas.png?size=64" width="28" height="28" align="absmiddle" style="border-radius: 6px;" />
-          &nbsp;<b><a href="https://github.com/nagcas/TerraQuakeApi">nagcas/&#8203;TerraQuakeApi</a></b>&nbsp;<sub>★&nbsp;34</sub>
+          &nbsp;<b><a href="https://github.com/nagcas/TerraQuakeApi">nagcas/&#8203;TerraQuakeApi</a></b>&nbsp;<sub>⭐&nbsp;34</sub>
         </td>
         <td align="left" width="52%">
           <a href="https://github.com/nagcas/TerraQuakeApi/pull/105">Improve README documentation" and description summarizing the changes (e.g., "Fixed broken emojis, added setup guide, updated API docs, improved navigation links (#105)</a>
@@ -242,7 +242,7 @@
       <tr>
         <td align="left" width="34%">
           <img src="https://github.com/meta.png?size=64" width="28" height="28" align="absmiddle" style="border-radius: 6px;" />
-          &nbsp;<b><a href="https://github.com/meta/docusaurus">meta/&#8203;docusaurus</a></b>&nbsp;<sub>★&nbsp;66.8k</sub>
+          &nbsp;<b><a href="https://github.com/meta/docusaurus">meta/&#8203;docusaurus</a></b>&nbsp;<sub>⭐&nbsp;66.8k</sub>
         </td>
         <td align="left" width="52%">
           <a href="https://github.com/meta/docusaurus/pull/12941">fix(theme-classic): do not hide announcement bar on new id for previously dismissed users (#12941)</a><br/><a href="https://github.com/meta/docusaurus/pull/12939">fix(utils): preserve trailing hash in ATX heading titles (#12939)</a>
@@ -256,7 +256,7 @@
       <tr>
         <td align="left" width="34%">
           <img src="https://github.com/calcom.png?size=64" width="28" height="28" align="absmiddle" style="border-radius: 6px;" />
-          &nbsp;<b><a href="https://github.com/calcom/cal.diy">calcom/&#8203;cal.diy</a></b>&nbsp;<sub>★&nbsp;50.2k</sub>
+          &nbsp;<b><a href="https://github.com/calcom/cal.diy">calcom/&#8203;cal.diy</a></b>&nbsp;<sub>⭐&nbsp;50.2k</sub>
         </td>
         <td align="left" width="52%">
           <a href="https://github.com/calcom/cal.diy/pull/30554">fix(pipedrive): format activity due_time in UTC instead of server local time (#30541) (#30554)</a>
@@ -270,7 +270,7 @@
       <tr>
         <td align="left" width="34%">
           <img src="https://github.com/meta.png?size=64" width="28" height="28" align="absmiddle" style="border-radius: 6px;" />
-          &nbsp;<b><a href="https://github.com/meta/astryx">meta/&#8203;astryx</a></b>&nbsp;<sub>★&nbsp;30.6k</sub>
+          &nbsp;<b><a href="https://github.com/meta/astryx">meta/&#8203;astryx</a></b>&nbsp;<sub>⭐&nbsp;30.6k</sub>
         </td>
         <td align="left" width="52%">
           <a href="https://github.com/meta/astryx/pull/12173">perf(core): merge props in a single pass (#12173)</a><br/><a href="https://github.com/meta/astryx/pull/12088">perf(core): cache computed theme data attribute names (#12088)</a>
@@ -284,7 +284,7 @@
       <tr>
         <td align="left" width="34%">
           <img src="https://github.com/toss.png?size=64" width="28" height="28" align="absmiddle" style="border-radius: 6px;" />
-          &nbsp;<b><a href="https://github.com/toss/es-toolkit">toss/&#8203;es-toolkit</a></b>&nbsp;<sub>★&nbsp;11.4k</sub>
+          &nbsp;<b><a href="https://github.com/toss/es-toolkit">toss/&#8203;es-toolkit</a></b>&nbsp;<sub>⭐&nbsp;11.4k</sub>
         </td>
         <td align="left" width="52%">
           <a href="https://github.com/toss/es-toolkit/pull/2227">fix(round): avoid floating point precision issues when rounding (#2227)</a><br/><a href="https://github.com/toss/es-toolkit/pull/2222">fix(countBy): prevent prototype property collisions when counting (#2222)</a>
@@ -298,7 +298,7 @@
       <tr>
         <td align="left" width="34%">
           <img src="https://github.com/BuilderIO.png?size=64" width="28" height="28" align="absmiddle" style="border-radius: 6px;" />
-          &nbsp;<b><a href="https://github.com/BuilderIO/agent-native">BuilderIO/&#8203;agent-native</a></b>&nbsp;<sub>★&nbsp;7.7k</sub>
+          &nbsp;<b><a href="https://github.com/BuilderIO/agent-native">BuilderIO/&#8203;agent-native</a></b>&nbsp;<sub>⭐&nbsp;7.7k</sub>
         </td>
         <td align="left" width="52%">
           <a href="https://github.com/BuilderIO/agent-native/pull/9039">fix(core): surface Telegram webhook errors and validate secret (#9018) (#9039)</a>
@@ -312,7 +312,7 @@
       <tr>
         <td align="left" width="34%">
           <img src="https://github.com/Lumiwealth.png?size=64" width="28" height="28" align="absmiddle" style="border-radius: 6px;" />
-          &nbsp;<b><a href="https://github.com/Lumiwealth/lumibot">Lumiwealth/&#8203;lumibot</a></b>&nbsp;<sub>★&nbsp;2.2k</sub>
+          &nbsp;<b><a href="https://github.com/Lumiwealth/lumibot">Lumiwealth/&#8203;lumibot</a></b>&nbsp;<sub>⭐&nbsp;2.2k</sub>
         </td>
         <td align="left" width="52%">
           <a href="https://github.com/Lumiwealth/lumibot/pull/1279">fix(backtest): check polars DataFrame with isinstance (#1267) (#1279)</a>
