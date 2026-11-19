@@ -98,14 +98,14 @@ function renderRepoRows(repoList, defaultStatus) {
       : `<img src="https://img.shields.io/badge/Open_PR-238636?style=flat-square&logo=github&logoColor=white" alt="Open PR" />`;
 
     rows += `      <tr>\n`;
-    rows += `        <td align="left" nowrap>\n`;
+    rows += `        <td align="left" width="34%">\n`;
     rows += `          <img src="${avatarUrl}" width="28" height="28" align="absmiddle" style="border-radius: 6px;" />\n`;
     rows += `          &nbsp;<b><a href="https://github.com/${r.nameWithOwner}">${r.nameWithOwner}</a></b>${starText}\n`;
     rows += `        </td>\n`;
-    rows += `        <td align="left">\n`;
+    rows += `        <td align="left" width="52%">\n`;
     rows += `          ${prLinks}\n`;
     rows += `        </td>\n`;
-    rows += `        <td align="center" width="8%" nowrap>\n`;
+    rows += `        <td align="center" width="14%" nowrap>\n`;
     rows += `          ${badge}\n`;
     rows += `        </td>\n`;
     rows += `      </tr>\n`;
@@ -180,9 +180,9 @@ function generateMarkdown(nodes) {
     out += `  <table width="100%">\n`;
     out += `    <thead>\n`;
     out += `      <tr>\n`;
-    out += `        <th align="left" nowrap>Project</th>\n`;
-    out += `        <th align="left">Pull Request</th>\n`;
-    out += `        <th align="center" width="8%" nowrap>Status</th>\n`;
+    out += `        <th align="left" width="34%">Project</th>\n`;
+    out += `        <th align="left" width="52%">Pull Request</th>\n`;
+    out += `        <th align="center" width="14%" nowrap>Status</th>\n`;
     out += `      </tr>\n`;
     out += `    </thead>\n`;
     out += `    <tbody>\n`;
@@ -206,9 +206,9 @@ function generateMarkdown(nodes) {
     out += `    <table width="100%">\n`;
     out += `      <thead>\n`;
     out += `        <tr>\n`;
-    out += `          <th align="left" nowrap>Project</th>\n`;
-    out += `          <th align="left">Pull Request</th>\n`;
-    out += `          <th align="center" width="8%" nowrap>Status</th>\n`;
+    out += `          <th align="left" width="34%">Project</th>\n`;
+    out += `          <th align="left" width="52%">Pull Request</th>\n`;
+    out += `          <th align="center" width="14%" nowrap>Status</th>\n`;
     out += `        </tr>\n`;
     out += `      </thead>\n`;
     out += `      <tbody>\n`;
