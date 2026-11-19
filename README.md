@@ -113,7 +113,7 @@
 
 <div align="center">
   <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-repo.vercel.app/?username=tbhvishal&theme=github_dark&row=1&column=7&margin-h=15&margin-w=5&no-bg=true" alt="Trophies" width="100%" />
+    <img src="https://raw.githubusercontent.com/tbhvishal/tbhvishal/main/assets/stats/trophies.svg" alt="Trophies" width="100%" />
   </a>
 </div>
 

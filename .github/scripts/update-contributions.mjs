@@ -241,6 +241,10 @@ async function updateStatsSvgs() {
       file: "streak-stats.svg",
       url: "https://streak-stats.demolab.com/?user=tbhvishal&background=0d1117&border=30363d&stroke=30363d&ring=58a6ff&fire=58a6ff&currStreakNum=58a6ff&currStreakLabel=58a6ff&sideNums=c9d1d9&sideLabels=8b949e&dates=8b949e&border_radius=8",
     },
+    {
+      file: "trophies.svg",
+      url: "https://github-profile-repo.vercel.app/?username=tbhvishal&theme=darkhub&row=1&column=7&margin-h=15&margin-w=5&no-bg=true",
+    },
   ];
 
   await Promise.all(
