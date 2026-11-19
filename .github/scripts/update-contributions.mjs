@@ -151,14 +151,12 @@ function generateMarkdown(nodes) {
     }
   }
 
-  const FEATURED_LIMIT = 3;
-  const visibleMerged = mergedRepos.slice(0, FEATURED_LIMIT);
-  const hiddenMerged = mergedRepos.slice(FEATURED_LIMIT);
+  const TOP_MERGED_LIMIT = 10;
+  const visibleMerged = mergedRepos.slice(0, TOP_MERGED_LIMIT);
+  const hiddenMerged = mergedRepos.slice(TOP_MERGED_LIMIT);
 
-  const visibleActive = activeRepos.slice(0, FEATURED_LIMIT);
-  const hiddenActive = activeRepos.slice(FEATURED_LIMIT);
-
-  const totalHidden = hiddenMerged.length + hiddenActive.length;
+  // All active in-review PRs and overflow merged PRs go into the expandable dropdown
+  const totalHidden = hiddenMerged.length + activeRepos.length;
 
   let out = `<!-- RECENT_CONTRIBUTIONS:START -->\n`;
   out += `<p align="center">\n`;
@@ -169,14 +167,8 @@ function generateMarkdown(nodes) {
   out += `  <img src="https://img.shields.io/badge/Code-Merged_to_Production-8957E5?style=for-the-badge&logo=git&logoColor=white" alt="Merged to Production" />\n`;
   out += `</p>\n\n`;
 
-  // 1. Featured Merged Pull Requests
+  // 1. Top 10 Merged Pull Requests (Production Code)
   if (visibleMerged.length > 0) {
-    out += `<div align="center">\n`;
-    out += `  <b>\n`;
-    out += `    <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Check%20Mark%20Button.png" width="22" height="22" align="absmiddle" alt="" />\n`;
-    out += `    &nbsp;Merged Pull Requests (Production Code)\n`;
-    out += `  </b>\n`;
-    out += `</div>\n<br/>\n\n`;
     out += `<div align="center">\n`;
     out += `  <table width="100%">\n`;
     out += `    <thead>\n`;
@@ -193,38 +185,14 @@ function generateMarkdown(nodes) {
     out += `</div>\n\n`;
   }
 
-  // 2. Featured Active Contributions
-  if (visibleActive.length > 0) {
-    out += `<div align="center">\n`;
-    out += `  <b>\n`;
-    out += `    <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/High%20Voltage.png" width="22" height="22" align="absmiddle" alt="" />\n`;
-    out += `    &nbsp;Active Contributions (Under Review)\n`;
-    out += `  </b>\n`;
-    out += `</div>\n<br/>\n\n`;
-    out += `<div align="center">\n`;
-    out += `  <table width="100%">\n`;
-    out += `    <thead>\n`;
-    out += `      <tr>\n`;
-    out += `        <th align="left" width="35%">Project</th>\n`;
-    out += `        <th align="left" width="50%">Pull Request</th>\n`;
-    out += `        <th align="center" width="15%">Status</th>\n`;
-    out += `      </tr>\n`;
-    out += `    </thead>\n`;
-    out += `    <tbody>\n`;
-    out += renderRepoRows(visibleActive, "OPEN");
-    out += `    </tbody>\n`;
-    out += `  </table>\n`;
-    out += `</div>\n\n`;
-  }
-
-  // 3. Compact Dropdown for All Remaining Contributions
+  // 2. Expandable Dropdown for In-Review & Remaining Contributions
   if (totalHidden > 0) {
     out += `<div align="center">\n`;
     out += `  <details>\n`;
     out += `    <summary>\n`;
     out += `      <b>\n`;
     out += `        <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Card%20File%20Box.png" width="22" height="22" align="absmiddle" alt="" />\n`;
-    out += `        &nbsp;Click to expand all contributions (${totalHidden} more repositories)\n`;
+    out += `        &nbsp;Click to expand in-review & remaining contributions (${totalHidden} repositories)\n`;
     out += `      </b>\n`;
     out += `    </summary>\n`;
     out += `    <br/>\n`;
@@ -237,11 +205,11 @@ function generateMarkdown(nodes) {
     out += `        </tr>\n`;
     out += `      </thead>\n`;
     out += `      <tbody>\n`;
+    if (activeRepos.length > 0) {
+      out += renderRepoRows(activeRepos, "OPEN");
+    }
     if (hiddenMerged.length > 0) {
       out += renderRepoRows(hiddenMerged, "MERGED");
-    }
-    if (hiddenActive.length > 0) {
-      out += renderRepoRows(hiddenActive, "OPEN");
     }
     out += `      </tbody>\n`;
     out += `    </table>\n`;

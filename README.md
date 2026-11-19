@@ -105,14 +105,6 @@
 </p>
 
 <div align="center">
-  <b>
-    <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Check%20Mark%20Button.png" width="22" height="22" align="absmiddle" alt="" />
-    &nbsp;Merged Pull Requests (Production Code)
-  </b>
-</div>
-<br/>
-
-<div align="center">
   <table width="100%">
     <thead>
       <tr>
@@ -158,28 +150,52 @@
           <img src="https://img.shields.io/badge/Merged-8957E5?style=flat-square&logo=github&logoColor=white" alt="Merged" />
         </td>
       </tr>
+      <tr>
+        <td align="left">
+          <img src="https://github.com/lingdojo.png?size=40" width="22" height="22" align="absmiddle" style="border-radius: 4px;" />
+          &nbsp;<b><a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a></b>&nbsp;<sub><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" width="14" height="14" align="absmiddle" alt="" /> 3.9k</sub>
+        </td>
+        <td align="left">
+          <a href="https://github.com/lingdojo/kana-dojo/pull/33775">content: add new japanese false friend (#33775)</a>
+        </td>
+        <td align="center">
+          <img src="https://img.shields.io/badge/Merged-8957E5?style=flat-square&logo=github&logoColor=white" alt="Merged" />
+        </td>
+      </tr>
+      <tr>
+        <td align="left">
+          <img src="https://github.com/nagcas.png?size=40" width="22" height="22" align="absmiddle" style="border-radius: 4px;" />
+          &nbsp;<b><a href="https://github.com/nagcas/TerraQuakeApi">nagcas/TerraQuakeApi</a></b>&nbsp;<sub><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" width="14" height="14" align="absmiddle" alt="" /> 34</sub>
+        </td>
+        <td align="left">
+          <a href="https://github.com/nagcas/TerraQuakeApi/pull/105">Improve README documentation" and description summarizing the changes (e.g., "Fixed broken emojis, added setup guide, updated API docs, improved navigation links (#105)</a>
+        </td>
+        <td align="center">
+          <img src="https://img.shields.io/badge/Merged-8957E5?style=flat-square&logo=github&logoColor=white" alt="Merged" />
+        </td>
+      </tr>
     </tbody>
   </table>
 </div>
 
 <div align="center">
-  <b>
-    <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/High%20Voltage.png" width="22" height="22" align="absmiddle" alt="" />
-    &nbsp;Active Contributions (Under Review)
-  </b>
-</div>
-<br/>
-
-<div align="center">
-  <table width="100%">
-    <thead>
-      <tr>
-        <th align="left" width="35%">Project</th>
-        <th align="left" width="50%">Pull Request</th>
-        <th align="center" width="15%">Status</th>
-      </tr>
-    </thead>
-    <tbody>
+  <details>
+    <summary>
+      <b>
+        <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Card%20File%20Box.png" width="22" height="22" align="absmiddle" alt="" />
+        &nbsp;Click to expand in-review & remaining contributions (6 repositories)
+      </b>
+    </summary>
+    <br/>
+    <table width="100%">
+      <thead>
+        <tr>
+          <th align="left" width="35%">Project</th>
+          <th align="left" width="50%">Pull Request</th>
+          <th align="center" width="15%">Status</th>
+        </tr>
+      </thead>
+      <tbody>
       <tr>
         <td align="left">
           <img src="https://github.com/meta.png?size=40" width="22" height="22" align="absmiddle" style="border-radius: 4px;" />
@@ -214,52 +230,6 @@
         </td>
         <td align="center">
           <img src="https://img.shields.io/badge/Open_PR-238636?style=flat-square&logo=github&logoColor=white" alt="Open PR" />
-        </td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-
-<div align="center">
-  <details>
-    <summary>
-      <b>
-        <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Card%20File%20Box.png" width="22" height="22" align="absmiddle" alt="" />
-        &nbsp;Click to expand all contributions (5 more repositories)
-      </b>
-    </summary>
-    <br/>
-    <table width="100%">
-      <thead>
-        <tr>
-          <th align="left" width="35%">Project</th>
-          <th align="left" width="50%">Pull Request</th>
-          <th align="center" width="15%">Status</th>
-        </tr>
-      </thead>
-      <tbody>
-      <tr>
-        <td align="left">
-          <img src="https://github.com/lingdojo.png?size=40" width="22" height="22" align="absmiddle" style="border-radius: 4px;" />
-          &nbsp;<b><a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a></b>&nbsp;<sub><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" width="14" height="14" align="absmiddle" alt="" /> 3.9k</sub>
-        </td>
-        <td align="left">
-          <a href="https://github.com/lingdojo/kana-dojo/pull/33775">content: add new japanese false friend (#33775)</a>
-        </td>
-        <td align="center">
-          <img src="https://img.shields.io/badge/Merged-8957E5?style=flat-square&logo=github&logoColor=white" alt="Merged" />
-        </td>
-      </tr>
-      <tr>
-        <td align="left">
-          <img src="https://github.com/nagcas.png?size=40" width="22" height="22" align="absmiddle" style="border-radius: 4px;" />
-          &nbsp;<b><a href="https://github.com/nagcas/TerraQuakeApi">nagcas/TerraQuakeApi</a></b>&nbsp;<sub><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" width="14" height="14" align="absmiddle" alt="" /> 34</sub>
-        </td>
-        <td align="left">
-          <a href="https://github.com/nagcas/TerraQuakeApi/pull/105">Improve README documentation" and description summarizing the changes (e.g., "Fixed broken emojis, added setup guide, updated API docs, improved navigation links (#105)</a>
-        </td>
-        <td align="center">
-          <img src="https://img.shields.io/badge/Merged-8957E5?style=flat-square&logo=github&logoColor=white" alt="Merged" />
         </td>
       </tr>
       <tr>
@@ -314,39 +284,11 @@
 <div align="center">
   <table>
     <tr>
-      <td align="center" valign="middle">
-        <div align="center">
-          <b>
-            <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/High%20Voltage.png" width="26" height="26" align="absmiddle" alt="" />
-            &nbsp;GitHub Overview
-          </b>
-        </div>
-      </td>
-      <td align="center" valign="middle">
-        <div align="center">
-          <b>
-            <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" width="26" height="26" align="absmiddle" alt="" />
-            &nbsp;Most Used Languages
-          </b>
-        </div>
-      </td>
-    </tr>
-    <tr>
       <td align="center" width="55%">
         <img src="https://github-readme-stats-one-taupe.vercel.app/api?username=tbhvishal&show_icons=true&include_all_commits=true&count_private=true&theme=onedark&hide_border=false&border_radius=10&title_color=FED11E&icon_color=FED11E&text_bold=true" alt="Vishal's GitHub Stats" height="195" />
       </td>
       <td align="center" width="45%">
         <img src="https://github-readme-stats-one-taupe.vercel.app/api/top-langs?username=tbhvishal&layout=compact&theme=onedark&hide_border=false&border_radius=10&title_color=FED11E&text_bold=true" alt="Top Languages" height="195" />
-      </td>
-    </tr>
-    <tr>
-      <td colspan="2" align="center" valign="middle">
-        <div align="center">
-          <b>
-            <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Fire.png" width="26" height="26" align="absmiddle" alt="" />
-            &nbsp;Contribution Streak & Engagement
-          </b>
-        </div>
       </td>
     </tr>
     <tr>
@@ -376,24 +318,6 @@
   </table>
 </div>
 
----
-
-<h2 align="center">
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" width="38" height="38" align="absmiddle" alt="" />
-  &nbsp;Interactive Contribution Matrix
-</h2>
-
-<div align="center">
-  <table>
-    <tr>
-      <td align="center">
-        <a href="https://gitshine.com/stats/TbhVishal">
-          <img src="https://gitshine.com/card/TbhVishal?theme=dark&layout=compact" alt="TbhVishal's GitHub stats" />
-        </a>
-      </td>
-    </tr>
-  </table>
-</div>
 
 ---
 
@@ -412,8 +336,4 @@
   </a>
 </div>
 
-<br/>
 
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=FED11E&section=footer&reversal=true" width="100%" alt="Footer Wave" />
-</div>
