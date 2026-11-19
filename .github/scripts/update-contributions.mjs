@@ -82,7 +82,7 @@ function renderRepoRows(repoList, defaultStatus) {
   let rows = "";
   for (const r of repoList) {
     const avatarUrl = `https://github.com/${r.owner}.png?size=64`;
-    const starText = r.stars > 0 ? `&nbsp;<sub>⭐&nbsp;${formatStars(r.stars)}</sub>` : "";
+    const starText = r.stars > 0 ? `&nbsp;<sub>★&nbsp;${formatStars(r.stars)}</sub>` : "";
     const MAX_PR_SHOWN = 2;
     const visiblePrs = r.prs
       .slice(0, MAX_PR_SHOWN)
@@ -200,7 +200,7 @@ function generateMarkdown(nodes) {
     out += `  <details>\n`;
     out += `    <summary>\n`;
     out += `      <b>\n`;
-    out += `        ◈&nbsp;Click to expand in-review & remaining contributions (${totalHidden} repositories)\n`;
+    out += `        ◈ Click to expand in-review & remaining contributions (${totalHidden} repositories)\n`;
     out += `      </b>\n`;
     out += `    </summary>\n`;
     out += `    <br/>\n`;
@@ -289,27 +289,16 @@ async function run() {
   }
 
   const generatedSection = generateMarkdown(nodes);
-  const insertBlock = `<h2 align="center">\n  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" width="38" height="38" align="absmiddle" alt="" />\n  &nbsp;Open Source Contributions\n</h2>\n\n${generatedSection}\n\n---\n\n`;
 
-  // Remove existing section if present anywhere
-  const headingRegex = /<h2 align="center">\s*<img[^>]*Laptop\.png[^>]*>[\s\S]*?<!-- RECENT_CONTRIBUTIONS:END -->\s*(---\s*)?/i;
-  if (headingRegex.test(readme)) {
-    readme = readme.replace(headingRegex, "");
-  }
+  const startMarker = "<!-- RECENT_CONTRIBUTIONS:START -->";
+  const endMarker = "<!-- RECENT_CONTRIBUTIONS:END -->";
+  const startIndex = readme.indexOf(startMarker);
+  const endIndex = readme.indexOf(endMarker);
 
-  // Insert right before Connect with Me (Handshake.png)
-  const handshakeMarker = "Handshake.png";
-  const handshakeIndex = readme.indexOf(handshakeMarker);
-  if (handshakeIndex !== -1) {
-    const h2Prefix = '<h2 align="center">';
-    const insertPos = readme.lastIndexOf(h2Prefix, handshakeIndex);
-    if (insertPos !== -1) {
-      readme = readme.slice(0, insertPos) + insertBlock + readme.slice(insertPos);
-    } else {
-      readme += `\n\n${insertBlock}`;
-    }
+  if (startIndex !== -1 && endIndex !== -1) {
+    readme = readme.slice(0, startIndex) + generatedSection + readme.slice(endIndex + endMarker.length);
   } else {
-    readme += `\n\n${insertBlock}`;
+    console.warn("Could not find RECENT_CONTRIBUTIONS markers in README.md");
   }
 
   fs.writeFileSync(readmePath, readme, "utf-8");
