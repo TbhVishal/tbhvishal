@@ -81,7 +81,7 @@ function sanitize(text) {
 function renderRepoRows(repoList, defaultStatus) {
   let rows = "";
   for (const r of repoList) {
-    const avatarUrl = `https://github.com/${r.owner}.png?size=40`;
+    const avatarUrl = `https://github.com/${r.owner}.png?size=64`;
     const starText = r.stars > 0 ? `&nbsp;<sub><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" width="14" height="14" align="absmiddle" alt="" /> ${formatStars(r.stars)}</sub>` : "";
     const MAX_PR_SHOWN = 2;
     const visiblePrs = r.prs
@@ -98,14 +98,14 @@ function renderRepoRows(repoList, defaultStatus) {
       : `<img src="https://img.shields.io/badge/Open_PR-238636?style=flat-square&logo=github&logoColor=white" alt="Open PR" />`;
 
     rows += `      <tr>\n`;
-    rows += `        <td align="left">\n`;
-    rows += `          <img src="${avatarUrl}" width="22" height="22" align="absmiddle" style="border-radius: 4px;" />\n`;
+    rows += `        <td align="left" width="28%">\n`;
+    rows += `          <img src="${avatarUrl}" width="28" height="28" align="absmiddle" style="border-radius: 6px;" />\n`;
     rows += `          &nbsp;<b><a href="https://github.com/${r.nameWithOwner}">${r.nameWithOwner}</a></b>${starText}\n`;
     rows += `        </td>\n`;
-    rows += `        <td align="left">\n`;
+    rows += `        <td align="left" width="58%">\n`;
     rows += `          ${prLinks}\n`;
     rows += `        </td>\n`;
-    rows += `        <td align="center">\n`;
+    rows += `        <td align="center" width="14%">\n`;
     rows += `          ${badge}\n`;
     rows += `        </td>\n`;
     rows += `      </tr>\n`;
@@ -180,9 +180,9 @@ function generateMarkdown(nodes) {
     out += `  <table width="100%">\n`;
     out += `    <thead>\n`;
     out += `      <tr>\n`;
-    out += `        <th align="left" width="35%">Project</th>\n`;
-    out += `        <th align="left" width="50%">Pull Request</th>\n`;
-    out += `        <th align="center" width="15%">Status</th>\n`;
+    out += `        <th align="left" width="28%">Project</th>\n`;
+    out += `        <th align="left" width="58%">Pull Request</th>\n`;
+    out += `        <th align="center" width="14%">Status</th>\n`;
     out += `      </tr>\n`;
     out += `    </thead>\n`;
     out += `    <tbody>\n`;
@@ -206,9 +206,9 @@ function generateMarkdown(nodes) {
     out += `    <table width="100%">\n`;
     out += `      <thead>\n`;
     out += `        <tr>\n`;
-    out += `          <th align="left" width="35%">Project</th>\n`;
-    out += `          <th align="left" width="50%">Pull Request</th>\n`;
-    out += `          <th align="center" width="15%">Status</th>\n`;
+    out += `          <th align="left" width="28%">Project</th>\n`;
+    out += `          <th align="left" width="58%">Pull Request</th>\n`;
+    out += `          <th align="center" width="14%">Status</th>\n`;
     out += `        </tr>\n`;
     out += `      </thead>\n`;
     out += `      <tbody>\n`;
