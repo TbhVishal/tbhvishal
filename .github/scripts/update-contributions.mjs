@@ -200,7 +200,7 @@ function generateMarkdown(nodes) {
     out += `  <details>\n`;
     out += `    <summary>\n`;
     out += `      <b>\n`;
-    out += `        ◈ Click to expand in-review & remaining contributions (${totalHidden} repositories)\n`;
+    out += `        Click to expand in-review & remaining contributions (${totalHidden} repositories)\n`;
     out += `      </b>\n`;
     out += `    </summary>\n`;
     out += `    <br/>\n`;
