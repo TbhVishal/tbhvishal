@@ -17,7 +17,7 @@
 ---
 
 <h2 align="center">
-  🪐 Languages & Technologies
+  Languages & Technologies
 </h2>
 
 <div align="center">
@@ -100,7 +100,7 @@
 ---
 
 <h2 align="center">
-  🚀 GitHub Activity & Performance
+  GitHub Activity & Performance
 </h2>
 
 <p align="center">
@@ -115,7 +115,7 @@
 ---
 
 <h2 align="center">
-  🎉 Achievements & Badges
+  Achievements & Badges
 </h2>
 
 <div align="center">
@@ -128,7 +128,7 @@
 ---
 
 <h2 align="center">
-  💻 Open Source Contributions
+  Open Source Contributions
 </h2>
 
 <!-- RECENT_CONTRIBUTIONS:START -->
@@ -330,7 +330,7 @@
 ---
 
 <h2 align="center">
-  🤝 Connect with Me
+  Connect with Me
 </h2>
 
 <div align="center">
