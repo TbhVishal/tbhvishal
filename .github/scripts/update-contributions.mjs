@@ -133,7 +133,12 @@ function generateMarkdown(nodes) {
   out += `</p>\n\n`;
 
   // 1. Merged Pull Requests
-  out += `### 🏁 Merged Pull Requests (Production Code)\n\n`;
+  out += `<div align="center">\n`;
+  out += `  <b>\n`;
+  out += `    <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Check%20Mark%20Button.png" width="22" height="22" align="absmiddle" alt="" />\n`;
+  out += `    &nbsp;Merged Pull Requests (Production Code)\n`;
+  out += `  </b>\n`;
+  out += `</div>\n<br/>\n\n`;
   out += `<div align="center">\n`;
   out += `  <table width="100%">\n`;
   out += `    <thead>\n`;
@@ -147,7 +152,7 @@ function generateMarkdown(nodes) {
 
   for (const r of mergedRepos) {
     const avatarUrl = `https://github.com/${r.owner}.png?size=40`;
-    const starText = r.stars > 0 ? `&nbsp;<sub>⭐ ${formatStars(r.stars)}</sub>` : "";
+    const starText = r.stars > 0 ? `&nbsp;<sub><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" width="14" height="14" align="absmiddle" alt="" /> ${formatStars(r.stars)}</sub>` : "";
     const prLinks = r.prs
       .map((p) => `<a href="${p.url}">${sanitize(p.title)} (#${p.number})</a>`)
       .join("<br/>");
@@ -170,7 +175,12 @@ function generateMarkdown(nodes) {
   out += `</div>\n\n`;
 
   // 2. Active Contributions
-  out += `### 🟢 Active Contributions (Under Review)\n\n`;
+  out += `<div align="center">\n`;
+  out += `  <b>\n`;
+  out += `    <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/High%20Voltage.png" width="22" height="22" align="absmiddle" alt="" />\n`;
+  out += `    &nbsp;Active Contributions (Under Review)\n`;
+  out += `  </b>\n`;
+  out += `</div>\n<br/>\n\n`;
   out += `<div align="center">\n`;
   out += `  <table width="100%">\n`;
   out += `    <thead>\n`;
@@ -184,7 +194,7 @@ function generateMarkdown(nodes) {
 
   for (const r of activeRepos) {
     const avatarUrl = `https://github.com/${r.owner}.png?size=40`;
-    const starText = r.stars > 0 ? `&nbsp;<sub>⭐ ${formatStars(r.stars)}</sub>` : "";
+    const starText = r.stars > 0 ? `&nbsp;<sub><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" width="14" height="14" align="absmiddle" alt="" /> ${formatStars(r.stars)}</sub>` : "";
     const prLinks = r.prs
       .map((p) => `<a href="${p.url}">${sanitize(p.title)} (#${p.number})</a>`)
       .join("<br/>");
@@ -209,7 +219,12 @@ function generateMarkdown(nodes) {
   // 3. Discussion Solutions Archive
   out += `<div align="center">\n`;
   out += `  <details>\n`;
-  out += `    <summary><b>📂 Click here to view Galaxy Brain community solutions and discussion answers</b></summary>\n`;
+  out += `    <summary>\n`;
+  out += `      <b>\n`;
+  out += `        <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Card%20File%20Box.png" width="22" height="22" align="absmiddle" alt="" />\n`;
+  out += `        &nbsp;Click here to view Galaxy Brain community solutions and discussion answers\n`;
+  out += `      </b>\n`;
+  out += `    </summary>\n`;
   out += `    <br/>\n`;
   out += `    <table width="100%">\n`;
   out += `      <thead>\n`;
@@ -249,34 +264,31 @@ async function run() {
   }
 
   const generatedSection = generateMarkdown(nodes);
+  const insertBlock = `<h2 align="center">\n  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" width="38" height="38" align="absmiddle" alt="" />\n  &nbsp;Open Source Contributions\n</h2>\n\n${generatedSection}\n\n---\n\n`;
 
-  const startMarker = "<!-- RECENT_CONTRIBUTIONS:START -->";
-  const endMarker = "<!-- RECENT_CONTRIBUTIONS:END -->";
+  // Remove existing section if present anywhere
+  const headingRegex = /<h2 align="center">\s*<img[^>]*Laptop\.png[^>]*>[\s\S]*?<!-- RECENT_CONTRIBUTIONS:END -->\s*(---\s*)?/i;
+  if (headingRegex.test(readme)) {
+    readme = readme.replace(headingRegex, "");
+  }
 
-  if (readme.includes(startMarker) && readme.includes(endMarker)) {
-    const startIndex = readme.indexOf(startMarker);
-    const endIndex = readme.indexOf(endMarker) + endMarker.length;
-    readme = readme.slice(0, startIndex) + generatedSection + readme.slice(endIndex);
-  } else {
-    // Look for Achievements section marker: "Party%20Popper.png"
-    const markerIndex = readme.indexOf("Party%20Popper.png");
+  // Insert right before GitHub Activity & Performance (Rocket.png)
+  const rocketMarker = "Rocket.png";
+  const rocketIndex = readme.indexOf(rocketMarker);
+  if (rocketIndex !== -1) {
     const h2Prefix = '<h2 align="center">';
-    let insertIndex = -1;
-    if (markerIndex !== -1) {
-      insertIndex = readme.lastIndexOf(h2Prefix, markerIndex);
-    }
-
-    const insertBlock = `<h2 align="center">\n  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" width="38" height="38" align="absmiddle" alt="" />\n  &nbsp;Open Source Contributions\n</h2>\n\n${generatedSection}\n\n---\n\n`;
-
-    if (insertIndex !== -1) {
-      readme = readme.slice(0, insertIndex) + insertBlock + readme.slice(insertIndex);
+    const insertPos = readme.lastIndexOf(h2Prefix, rocketIndex);
+    if (insertPos !== -1) {
+      readme = readme.slice(0, insertPos) + insertBlock + readme.slice(insertPos);
     } else {
-      readme += `\n${insertBlock}\n`;
+      readme += `\n\n${insertBlock}`;
     }
+  } else {
+    readme += `\n\n${insertBlock}`;
   }
 
   fs.writeFileSync(readmePath, readme, "utf-8");
-  console.log("Successfully updated README.md with live open-source contributions!");
+  console.log("Successfully updated README.md with live open-source contributions in proper position!");
 }
 
 run().catch((err) => {
