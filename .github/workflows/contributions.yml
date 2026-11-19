@@ -2,8 +2,8 @@ name: Update Open Source Contributions
 
 on:
   schedule:
-    # Runs daily at midnight UTC
-    - cron: "0 0 * * *"
+    # Runs hourly to keep stats and contributions fresh
+    - cron: "0 * * * *"
   workflow_dispatch:
   push:
     branches:

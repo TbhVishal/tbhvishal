@@ -95,23 +95,14 @@
   &nbsp;GitHub Activity & Performance
 </h2>
 
-<div align="center">
-  <table>
-    <tr>
-      <td align="center" width="55%">
-        <img src="https://raw.githubusercontent.com/tbhvishal/tbhvishal/main/assets/stats/github-stats.svg" alt="Vishal's GitHub Stats" height="195" />
-      </td>
-      <td align="center" width="45%">
-        <img src="https://raw.githubusercontent.com/tbhvishal/tbhvishal/main/assets/stats/top-langs.svg" alt="Top Languages" height="195" />
-      </td>
-    </tr>
-    <tr>
-      <td colspan="2" align="center">
-        <img src="https://raw.githubusercontent.com/tbhvishal/tbhvishal/main/assets/stats/streak-stats.svg" alt="GitHub Streak & Contributions" width="540" />
-      </td>
-    </tr>
-  </table>
-</div>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/tbhvishal/tbhvishal/main/assets/stats/github-stats.svg" alt="Vishal's GitHub Stats" height="195" />
+  &nbsp;
+  <img src="https://raw.githubusercontent.com/tbhvishal/tbhvishal/main/assets/stats/top-langs.svg" alt="Top Languages" height="195" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/tbhvishal/tbhvishal/main/assets/stats/streak-stats.svg" alt="GitHub Streak & Contributions" width="540" />
+</p>
 
 ---
 
@@ -121,15 +112,9 @@
 </h2>
 
 <div align="center">
-  <table>
-    <tr>
-      <td align="center">
-        <a href="https://github.com/ryo-ma/github-profile-trophy">
-          <img src="https://github-profile-repo.vercel.app/?username=tbhvishal&theme=onedark&row=1&column=7&margin-h=15&margin-w=5&no-bg=true" alt="Trophies" width="100%" />
-        </a>
-      </td>
-    </tr>
-  </table>
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-repo.vercel.app/?username=tbhvishal&theme=onedark&row=1&column=7&margin-h=15&margin-w=5&no-bg=true" alt="Trophies" width="100%" />
+  </a>
 </div>
 
 

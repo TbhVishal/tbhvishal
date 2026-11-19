@@ -231,15 +231,15 @@ async function updateStatsSvgs() {
   const targets = [
     {
       file: "github-stats.svg",
-      url: "https://github-readme-stats-one-taupe.vercel.app/api?username=tbhvishal&show_icons=true&include_all_commits=true&count_private=true&theme=onedark&bg_color=00000000&hide_border=true&title_color=FED11E&icon_color=FED11E&text_bold=true",
+      url: "https://github-readme-stats-one-taupe.vercel.app/api?username=tbhvishal&show_icons=true&include_all_commits=true&count_private=true&bg_color=00000000&hide_border=true&title_color=FED11E&icon_color=FED11E&text_color=c9d1d9&text_bold=false",
     },
     {
       file: "top-langs.svg",
-      url: "https://github-readme-stats-one-taupe.vercel.app/api/top-langs?username=tbhvishal&layout=compact&theme=onedark&bg_color=00000000&hide_border=true&title_color=FED11E&text_bold=true",
+      url: "https://github-readme-stats-one-taupe.vercel.app/api/top-langs?username=tbhvishal&layout=compact&bg_color=00000000&hide_border=true&title_color=FED11E&text_color=c9d1d9&text_bold=false",
     },
     {
       file: "streak-stats.svg",
-      url: "https://streak-stats.demolab.com/?user=tbhvishal&theme=onedark&border_radius=10&hide_border=true&background=00000000&ring=FED11E&fire=FED11E&currStreakNum=FED11E",
+      url: "https://streak-stats.demolab.com/?user=tbhvishal&hide_border=true&background=00000000&ring=FED11E&fire=FED11E&currStreakNum=FED11E&currStreakLabel=FED11E&sideNums=c9d1d9&sideLabels=8b949e&dates=8b949e",
     },
   ];
 
