@@ -99,6 +99,7 @@ function renderRepoRows(repoList, defaultStatus) {
 
     const displayName = r.nameWithOwner.replace("/", "/&#8203;");
 
+    rows += `    <tbody>\n`;
     rows += `      <tr>\n`;
     rows += `        <td align="left" width="34%">\n`;
     rows += `          <img src="${avatarUrl}" width="28" height="28" align="absmiddle" style="border-radius: 6px;" />\n`;
@@ -111,6 +112,7 @@ function renderRepoRows(repoList, defaultStatus) {
     rows += `          ${badge}\n`;
     rows += `        </td>\n`;
     rows += `      </tr>\n`;
+    rows += `    </tbody>\n`;
   }
   return rows;
 }
@@ -187,9 +189,7 @@ function generateMarkdown(nodes) {
     out += `        <th align="center" width="14%" nowrap>Status</th>\n`;
     out += `      </tr>\n`;
     out += `    </thead>\n`;
-    out += `    <tbody>\n`;
     out += renderRepoRows(visibleMerged, "MERGED");
-    out += `    </tbody>\n`;
     out += `  </table>\n`;
     out += `</div>\n\n`;
   }
@@ -213,14 +213,12 @@ function generateMarkdown(nodes) {
     out += `          <th align="center" width="14%" nowrap>Status</th>\n`;
     out += `        </tr>\n`;
     out += `      </thead>\n`;
-    out += `      <tbody>\n`;
     if (activeRepos.length > 0) {
       out += renderRepoRows(activeRepos, "OPEN");
     }
     if (hiddenMerged.length > 0) {
       out += renderRepoRows(hiddenMerged, "MERGED");
     }
-    out += `      </tbody>\n`;
     out += `    </table>\n`;
     out += `  </details>\n`;
     out += `</div>\n`;

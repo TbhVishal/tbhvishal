@@ -156,6 +156,8 @@
           <img src="https://img.shields.io/badge/Merged-8957E5?style=flat-square&logo=github&logoColor=white" alt="Merged" />
         </td>
       </tr>
+    </tbody>
+    <tbody>
       <tr>
         <td align="left" width="34%">
           <img src="https://github.com/Agenta-AI.png?size=64" width="28" height="28" align="absmiddle" style="border-radius: 6px;" />
@@ -168,6 +170,8 @@
           <img src="https://img.shields.io/badge/Merged-8957E5?style=flat-square&logo=github&logoColor=white" alt="Merged" />
         </td>
       </tr>
+    </tbody>
+    <tbody>
       <tr>
         <td align="left" width="34%">
           <img src="https://github.com/embedpdf.png?size=64" width="28" height="28" align="absmiddle" style="border-radius: 6px;" />
@@ -180,6 +184,8 @@
           <img src="https://img.shields.io/badge/Merged-8957E5?style=flat-square&logo=github&logoColor=white" alt="Merged" />
         </td>
       </tr>
+    </tbody>
+    <tbody>
       <tr>
         <td align="left" width="34%">
           <img src="https://github.com/lingdojo.png?size=64" width="28" height="28" align="absmiddle" style="border-radius: 6px;" />
@@ -192,6 +198,8 @@
           <img src="https://img.shields.io/badge/Merged-8957E5?style=flat-square&logo=github&logoColor=white" alt="Merged" />
         </td>
       </tr>
+    </tbody>
+    <tbody>
       <tr>
         <td align="left" width="34%">
           <img src="https://github.com/nagcas.png?size=64" width="28" height="28" align="absmiddle" style="border-radius: 6px;" />
@@ -225,7 +233,7 @@
           <th align="center" width="14%" nowrap>Status</th>
         </tr>
       </thead>
-      <tbody>
+    <tbody>
       <tr>
         <td align="left" width="34%">
           <img src="https://github.com/meta.png?size=64" width="28" height="28" align="absmiddle" style="border-radius: 6px;" />
@@ -238,6 +246,8 @@
           <img src="https://img.shields.io/badge/Open_PR-238636?style=flat-square&logo=github&logoColor=white" alt="Open PR" />
         </td>
       </tr>
+    </tbody>
+    <tbody>
       <tr>
         <td align="left" width="34%">
           <img src="https://github.com/calcom.png?size=64" width="28" height="28" align="absmiddle" style="border-radius: 6px;" />
@@ -250,6 +260,8 @@
           <img src="https://img.shields.io/badge/Open_PR-238636?style=flat-square&logo=github&logoColor=white" alt="Open PR" />
         </td>
       </tr>
+    </tbody>
+    <tbody>
       <tr>
         <td align="left" width="34%">
           <img src="https://github.com/meta.png?size=64" width="28" height="28" align="absmiddle" style="border-radius: 6px;" />
@@ -262,6 +274,8 @@
           <img src="https://img.shields.io/badge/Open_PR-238636?style=flat-square&logo=github&logoColor=white" alt="Open PR" />
         </td>
       </tr>
+    </tbody>
+    <tbody>
       <tr>
         <td align="left" width="34%">
           <img src="https://github.com/toss.png?size=64" width="28" height="28" align="absmiddle" style="border-radius: 6px;" />
@@ -274,6 +288,8 @@
           <img src="https://img.shields.io/badge/Open_PR-238636?style=flat-square&logo=github&logoColor=white" alt="Open PR" />
         </td>
       </tr>
+    </tbody>
+    <tbody>
       <tr>
         <td align="left" width="34%">
           <img src="https://github.com/BuilderIO.png?size=64" width="28" height="28" align="absmiddle" style="border-radius: 6px;" />
@@ -286,6 +302,8 @@
           <img src="https://img.shields.io/badge/Open_PR-238636?style=flat-square&logo=github&logoColor=white" alt="Open PR" />
         </td>
       </tr>
+    </tbody>
+    <tbody>
       <tr>
         <td align="left" width="34%">
           <img src="https://github.com/Lumiwealth.png?size=64" width="28" height="28" align="absmiddle" style="border-radius: 6px;" />
@@ -298,7 +316,7 @@
           <img src="https://img.shields.io/badge/Open_PR-238636?style=flat-square&logo=github&logoColor=white" alt="Open PR" />
         </td>
       </tr>
-      </tbody>
+    </tbody>
     </table>
   </details>
 </div>
