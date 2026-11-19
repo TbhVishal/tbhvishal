@@ -226,7 +226,7 @@
   <details>
     <summary>
       <b>
-        Click to expand in-review & remaining contributions (6 repositories)
+        ◈ Click to expand in-review & remaining contributions (6 repositories)
       </b>
     </summary>
     <br/>
