@@ -78,6 +78,34 @@ function sanitize(text) {
   return (text || "").replace(/\|/g, "\\|").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 }
 
+function renderRepoRows(repoList, defaultStatus) {
+  let rows = "";
+  for (const r of repoList) {
+    const avatarUrl = `https://github.com/${r.owner}.png?size=40`;
+    const starText = r.stars > 0 ? `&nbsp;<sub><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" width="14" height="14" align="absmiddle" alt="" /> ${formatStars(r.stars)}</sub>` : "";
+    const prLinks = r.prs
+      .map((p) => `<a href="${p.url}">${sanitize(p.title)} (#${p.number})</a>`)
+      .join("<br/>");
+    const badge = defaultStatus === "MERGED"
+      ? `<img src="https://img.shields.io/badge/Merged-8957E5?style=flat-square&logo=github&logoColor=white" alt="Merged" />`
+      : `<img src="https://img.shields.io/badge/Open_PR-238636?style=flat-square&logo=github&logoColor=white" alt="Open PR" />`;
+
+    rows += `      <tr>\n`;
+    rows += `        <td align="left">\n`;
+    rows += `          <img src="${avatarUrl}" width="22" height="22" align="absmiddle" style="border-radius: 4px;" />\n`;
+    rows += `          &nbsp;<b><a href="https://github.com/${r.nameWithOwner}">${r.nameWithOwner}</a></b>${starText}\n`;
+    rows += `        </td>\n`;
+    rows += `        <td align="left">\n`;
+    rows += `          ${prLinks}\n`;
+    rows += `        </td>\n`;
+    rows += `        <td align="center">\n`;
+    rows += `          ${badge}\n`;
+    rows += `        </td>\n`;
+    rows += `      </tr>\n`;
+  }
+  return rows;
+}
+
 function generateMarkdown(nodes) {
   if (!nodes || nodes.length === 0) return "";
 
@@ -123,6 +151,15 @@ function generateMarkdown(nodes) {
     }
   }
 
+  const FEATURED_LIMIT = 3;
+  const visibleMerged = mergedRepos.slice(0, FEATURED_LIMIT);
+  const hiddenMerged = mergedRepos.slice(FEATURED_LIMIT);
+
+  const visibleActive = activeRepos.slice(0, FEATURED_LIMIT);
+  const hiddenActive = activeRepos.slice(FEATURED_LIMIT);
+
+  const totalHidden = hiddenMerged.length + hiddenActive.length;
+
   let out = `<!-- RECENT_CONTRIBUTIONS:START -->\n`;
   out += `<p align="center">\n`;
   out += `  <a href="https://github.com/search?q=author%3Atbhvishal+type%3Apr+is%3Amerged">\n`;
@@ -132,118 +169,86 @@ function generateMarkdown(nodes) {
   out += `  <img src="https://img.shields.io/badge/Code-Merged_to_Production-8957E5?style=for-the-badge&logo=git&logoColor=white" alt="Merged to Production" />\n`;
   out += `</p>\n\n`;
 
-  // 1. Merged Pull Requests
-  out += `<div align="center">\n`;
-  out += `  <b>\n`;
-  out += `    <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Check%20Mark%20Button.png" width="22" height="22" align="absmiddle" alt="" />\n`;
-  out += `    &nbsp;Merged Pull Requests (Production Code)\n`;
-  out += `  </b>\n`;
-  out += `</div>\n<br/>\n\n`;
-  out += `<div align="center">\n`;
-  out += `  <table width="100%">\n`;
-  out += `    <thead>\n`;
-  out += `      <tr>\n`;
-  out += `        <th align="left" width="35%">Project</th>\n`;
-  out += `        <th align="left" width="50%">Pull Request</th>\n`;
-  out += `        <th align="center" width="15%">Status</th>\n`;
-  out += `      </tr>\n`;
-  out += `    </thead>\n`;
-  out += `    <tbody>\n`;
-
-  for (const r of mergedRepos) {
-    const avatarUrl = `https://github.com/${r.owner}.png?size=40`;
-    const starText = r.stars > 0 ? `&nbsp;<sub><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" width="14" height="14" align="absmiddle" alt="" /> ${formatStars(r.stars)}</sub>` : "";
-    const prLinks = r.prs
-      .map((p) => `<a href="${p.url}">${sanitize(p.title)} (#${p.number})</a>`)
-      .join("<br/>");
-
+  // 1. Featured Merged Pull Requests
+  if (visibleMerged.length > 0) {
+    out += `<div align="center">\n`;
+    out += `  <b>\n`;
+    out += `    <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Check%20Mark%20Button.png" width="22" height="22" align="absmiddle" alt="" />\n`;
+    out += `    &nbsp;Merged Pull Requests (Production Code)\n`;
+    out += `  </b>\n`;
+    out += `</div>\n<br/>\n\n`;
+    out += `<div align="center">\n`;
+    out += `  <table width="100%">\n`;
+    out += `    <thead>\n`;
     out += `      <tr>\n`;
-    out += `        <td align="left">\n`;
-    out += `          <img src="${avatarUrl}" width="22" height="22" align="absmiddle" style="border-radius: 4px;" />\n`;
-    out += `          &nbsp;<b><a href="https://github.com/${r.nameWithOwner}">${r.nameWithOwner}</a></b>${starText}\n`;
-    out += `        </td>\n`;
-    out += `        <td align="left">\n`;
-    out += `          ${prLinks}\n`;
-    out += `        </td>\n`;
-    out += `        <td align="center">\n`;
-    out += `          <img src="https://img.shields.io/badge/Merged-8957E5?style=flat-square&logo=github&logoColor=white" alt="Merged" />\n`;
-    out += `        </td>\n`;
+    out += `        <th align="left" width="35%">Project</th>\n`;
+    out += `        <th align="left" width="50%">Pull Request</th>\n`;
+    out += `        <th align="center" width="15%">Status</th>\n`;
     out += `      </tr>\n`;
+    out += `    </thead>\n`;
+    out += `    <tbody>\n`;
+    out += renderRepoRows(visibleMerged, "MERGED");
+    out += `    </tbody>\n`;
+    out += `  </table>\n`;
+    out += `</div>\n\n`;
   }
-  out += `    </tbody>\n`;
-  out += `  </table>\n`;
-  out += `</div>\n\n`;
 
-  // 2. Active Contributions
-  out += `<div align="center">\n`;
-  out += `  <b>\n`;
-  out += `    <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/High%20Voltage.png" width="22" height="22" align="absmiddle" alt="" />\n`;
-  out += `    &nbsp;Active Contributions (Under Review)\n`;
-  out += `  </b>\n`;
-  out += `</div>\n<br/>\n\n`;
-  out += `<div align="center">\n`;
-  out += `  <table width="100%">\n`;
-  out += `    <thead>\n`;
-  out += `      <tr>\n`;
-  out += `        <th align="left" width="35%">Project</th>\n`;
-  out += `        <th align="left" width="50%">Pull Request</th>\n`;
-  out += `        <th align="center" width="15%">Status</th>\n`;
-  out += `      </tr>\n`;
-  out += `    </thead>\n`;
-  out += `    <tbody>\n`;
-
-  for (const r of activeRepos) {
-    const avatarUrl = `https://github.com/${r.owner}.png?size=40`;
-    const starText = r.stars > 0 ? `&nbsp;<sub><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" width="14" height="14" align="absmiddle" alt="" /> ${formatStars(r.stars)}</sub>` : "";
-    const prLinks = r.prs
-      .map((p) => `<a href="${p.url}">${sanitize(p.title)} (#${p.number})</a>`)
-      .join("<br/>");
-
+  // 2. Featured Active Contributions
+  if (visibleActive.length > 0) {
+    out += `<div align="center">\n`;
+    out += `  <b>\n`;
+    out += `    <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/High%20Voltage.png" width="22" height="22" align="absmiddle" alt="" />\n`;
+    out += `    &nbsp;Active Contributions (Under Review)\n`;
+    out += `  </b>\n`;
+    out += `</div>\n<br/>\n\n`;
+    out += `<div align="center">\n`;
+    out += `  <table width="100%">\n`;
+    out += `    <thead>\n`;
     out += `      <tr>\n`;
-    out += `        <td align="left">\n`;
-    out += `          <img src="${avatarUrl}" width="22" height="22" align="absmiddle" style="border-radius: 4px;" />\n`;
-    out += `          &nbsp;<b><a href="https://github.com/${r.nameWithOwner}">${r.nameWithOwner}</a></b>${starText}\n`;
-    out += `        </td>\n`;
-    out += `        <td align="left">\n`;
-    out += `          ${prLinks}\n`;
-    out += `        </td>\n`;
-    out += `        <td align="center">\n`;
-    out += `          <img src="https://img.shields.io/badge/Open_PR-238636?style=flat-square&logo=github&logoColor=white" alt="Open PR" />\n`;
-    out += `        </td>\n`;
+    out += `        <th align="left" width="35%">Project</th>\n`;
+    out += `        <th align="left" width="50%">Pull Request</th>\n`;
+    out += `        <th align="center" width="15%">Status</th>\n`;
     out += `      </tr>\n`;
+    out += `    </thead>\n`;
+    out += `    <tbody>\n`;
+    out += renderRepoRows(visibleActive, "OPEN");
+    out += `    </tbody>\n`;
+    out += `  </table>\n`;
+    out += `</div>\n\n`;
   }
-  out += `    </tbody>\n`;
-  out += `  </table>\n`;
-  out += `</div>\n\n`;
 
-  // 3. Discussion Solutions Archive
-  out += `<div align="center">\n`;
-  out += `  <details>\n`;
-  out += `    <summary>\n`;
-  out += `      <b>\n`;
-  out += `        <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Card%20File%20Box.png" width="22" height="22" align="absmiddle" alt="" />\n`;
-  out += `        &nbsp;Click here to view Galaxy Brain community solutions and discussion answers\n`;
-  out += `      </b>\n`;
-  out += `    </summary>\n`;
-  out += `    <br/>\n`;
-  out += `    <table width="100%">\n`;
-  out += `      <thead>\n`;
-  out += `        <tr>\n`;
-  out += `          <th align="left">Repository</th>\n`;
-  out += `          <th align="left">Solution Details</th>\n`;
-  out += `          <th align="center">Category</th>\n`;
-  out += `        </tr>\n`;
-  out += `      </thead>\n`;
-  out += `      <tbody>\n`;
-  out += `        <tr>\n`;
-  out += `          <td><a href="https://github.com/meta/docusaurus">meta/docusaurus</a></td>\n`;
-  out += `          <td><a href="https://github.com/meta/docusaurus/discussions/13078#discussioncomment-19720252">Dynamic docs sidebar registration architecture solution (#13078)</a></td>\n`;
-  out += `          <td align="center"><img src="https://img.shields.io/badge/Galaxy_Brain-FED11E?style=flat-square&logo=github&logoColor=black" alt="Discussion Answer"/></td>\n`;
-  out += `        </tr>\n`;
-  out += `      </tbody>\n`;
-  out += `    </table>\n`;
-  out += `  </details>\n`;
-  out += `</div>\n`;
+  // 3. Compact Dropdown for All Remaining Contributions
+  if (totalHidden > 0) {
+    out += `<div align="center">\n`;
+    out += `  <details>\n`;
+    out += `    <summary>\n`;
+    out += `      <b>\n`;
+    out += `        <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Card%20File%20Box.png" width="22" height="22" align="absmiddle" alt="" />\n`;
+    out += `        &nbsp;Click to expand all contributions (${totalHidden} more repositories)\n`;
+    out += `      </b>\n`;
+    out += `    </summary>\n`;
+    out += `    <br/>\n`;
+    out += `    <table width="100%">\n`;
+    out += `      <thead>\n`;
+    out += `        <tr>\n`;
+    out += `          <th align="left" width="35%">Project</th>\n`;
+    out += `          <th align="left" width="50%">Pull Request</th>\n`;
+    out += `          <th align="center" width="15%">Status</th>\n`;
+    out += `        </tr>\n`;
+    out += `      </thead>\n`;
+    out += `      <tbody>\n`;
+    if (hiddenMerged.length > 0) {
+      out += renderRepoRows(hiddenMerged, "MERGED");
+    }
+    if (hiddenActive.length > 0) {
+      out += renderRepoRows(hiddenActive, "OPEN");
+    }
+    out += `      </tbody>\n`;
+    out += `    </table>\n`;
+    out += `  </details>\n`;
+    out += `</div>\n`;
+  }
+
   out += `<!-- RECENT_CONTRIBUTIONS:END -->`;
 
   return out;

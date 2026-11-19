@@ -158,30 +158,6 @@
           <img src="https://img.shields.io/badge/Merged-8957E5?style=flat-square&logo=github&logoColor=white" alt="Merged" />
         </td>
       </tr>
-      <tr>
-        <td align="left">
-          <img src="https://github.com/lingdojo.png?size=40" width="22" height="22" align="absmiddle" style="border-radius: 4px;" />
-          &nbsp;<b><a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a></b>&nbsp;<sub><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" width="14" height="14" align="absmiddle" alt="" /> 3.9k</sub>
-        </td>
-        <td align="left">
-          <a href="https://github.com/lingdojo/kana-dojo/pull/33775">content: add new japanese false friend (#33775)</a>
-        </td>
-        <td align="center">
-          <img src="https://img.shields.io/badge/Merged-8957E5?style=flat-square&logo=github&logoColor=white" alt="Merged" />
-        </td>
-      </tr>
-      <tr>
-        <td align="left">
-          <img src="https://github.com/nagcas.png?size=40" width="22" height="22" align="absmiddle" style="border-radius: 4px;" />
-          &nbsp;<b><a href="https://github.com/nagcas/TerraQuakeApi">nagcas/TerraQuakeApi</a></b>&nbsp;<sub><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" width="14" height="14" align="absmiddle" alt="" /> 34</sub>
-        </td>
-        <td align="left">
-          <a href="https://github.com/nagcas/TerraQuakeApi/pull/105">Improve README documentation" and description summarizing the changes (e.g., "Fixed broken emojis, added setup guide, updated API docs, improved navigation links (#105)</a>
-        </td>
-        <td align="center">
-          <img src="https://img.shields.io/badge/Merged-8957E5?style=flat-square&logo=github&logoColor=white" alt="Merged" />
-        </td>
-      </tr>
     </tbody>
   </table>
 </div>
@@ -240,6 +216,52 @@
           <img src="https://img.shields.io/badge/Open_PR-238636?style=flat-square&logo=github&logoColor=white" alt="Open PR" />
         </td>
       </tr>
+    </tbody>
+  </table>
+</div>
+
+<div align="center">
+  <details>
+    <summary>
+      <b>
+        <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Card%20File%20Box.png" width="22" height="22" align="absmiddle" alt="" />
+        &nbsp;Click to expand all contributions (5 more repositories)
+      </b>
+    </summary>
+    <br/>
+    <table width="100%">
+      <thead>
+        <tr>
+          <th align="left" width="35%">Project</th>
+          <th align="left" width="50%">Pull Request</th>
+          <th align="center" width="15%">Status</th>
+        </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td align="left">
+          <img src="https://github.com/lingdojo.png?size=40" width="22" height="22" align="absmiddle" style="border-radius: 4px;" />
+          &nbsp;<b><a href="https://github.com/lingdojo/kana-dojo">lingdojo/kana-dojo</a></b>&nbsp;<sub><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" width="14" height="14" align="absmiddle" alt="" /> 3.9k</sub>
+        </td>
+        <td align="left">
+          <a href="https://github.com/lingdojo/kana-dojo/pull/33775">content: add new japanese false friend (#33775)</a>
+        </td>
+        <td align="center">
+          <img src="https://img.shields.io/badge/Merged-8957E5?style=flat-square&logo=github&logoColor=white" alt="Merged" />
+        </td>
+      </tr>
+      <tr>
+        <td align="left">
+          <img src="https://github.com/nagcas.png?size=40" width="22" height="22" align="absmiddle" style="border-radius: 4px;" />
+          &nbsp;<b><a href="https://github.com/nagcas/TerraQuakeApi">nagcas/TerraQuakeApi</a></b>&nbsp;<sub><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" width="14" height="14" align="absmiddle" alt="" /> 34</sub>
+        </td>
+        <td align="left">
+          <a href="https://github.com/nagcas/TerraQuakeApi/pull/105">Improve README documentation" and description summarizing the changes (e.g., "Fixed broken emojis, added setup guide, updated API docs, improved navigation links (#105)</a>
+        </td>
+        <td align="center">
+          <img src="https://img.shields.io/badge/Merged-8957E5?style=flat-square&logo=github&logoColor=white" alt="Merged" />
+        </td>
+      </tr>
       <tr>
         <td align="left">
           <img src="https://github.com/toss.png?size=40" width="22" height="22" align="absmiddle" style="border-radius: 4px;" />
@@ -276,33 +298,6 @@
           <img src="https://img.shields.io/badge/Open_PR-238636?style=flat-square&logo=github&logoColor=white" alt="Open PR" />
         </td>
       </tr>
-    </tbody>
-  </table>
-</div>
-
-<div align="center">
-  <details>
-    <summary>
-      <b>
-        <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Card%20File%20Box.png" width="22" height="22" align="absmiddle" alt="" />
-        &nbsp;Click here to view Galaxy Brain community solutions and discussion answers
-      </b>
-    </summary>
-    <br/>
-    <table width="100%">
-      <thead>
-        <tr>
-          <th align="left">Repository</th>
-          <th align="left">Solution Details</th>
-          <th align="center">Category</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a href="https://github.com/meta/docusaurus">meta/docusaurus</a></td>
-          <td><a href="https://github.com/meta/docusaurus/discussions/13078#discussioncomment-19720252">Dynamic docs sidebar registration architecture solution (#13078)</a></td>
-          <td align="center"><img src="https://img.shields.io/badge/Galaxy_Brain-FED11E?style=flat-square&logo=github&logoColor=black" alt="Discussion Answer"/></td>
-        </tr>
       </tbody>
     </table>
   </details>
