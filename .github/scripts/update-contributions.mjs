@@ -158,7 +158,7 @@ function generateMarkdown(nodes) {
     }
   }
 
-  const TOP_MERGED_LIMIT = 10;
+  const TOP_MERGED_LIMIT = 8;
   const visibleMerged = mergedRepos.slice(0, TOP_MERGED_LIMIT);
   const hiddenMerged = mergedRepos.slice(TOP_MERGED_LIMIT);
 
