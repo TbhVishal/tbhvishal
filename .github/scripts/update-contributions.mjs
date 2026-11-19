@@ -97,10 +97,12 @@ function renderRepoRows(repoList, defaultStatus) {
       ? `<img src="https://img.shields.io/badge/Merged-8957E5?style=flat-square&logo=github&logoColor=white" alt="Merged" />`
       : `<img src="https://img.shields.io/badge/Open_PR-238636?style=flat-square&logo=github&logoColor=white" alt="Open PR" />`;
 
+    const displayName = r.nameWithOwner.replace("/", "/&#8203;");
+
     rows += `      <tr>\n`;
     rows += `        <td align="left" width="34%">\n`;
     rows += `          <img src="${avatarUrl}" width="28" height="28" align="absmiddle" style="border-radius: 6px;" />\n`;
-    rows += `          &nbsp;<b><a href="https://github.com/${r.nameWithOwner}">${r.nameWithOwner}</a></b>${starText}\n`;
+    rows += `          &nbsp;<b><a href="https://github.com/${r.nameWithOwner}">${displayName}</a></b>${starText}\n`;
     rows += `        </td>\n`;
     rows += `        <td align="left" width="52%">\n`;
     rows += `          ${prLinks}\n`;
