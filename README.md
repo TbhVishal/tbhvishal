@@ -268,7 +268,7 @@
           &nbsp;<b><a href="https://github.com/toss/es-toolkit">toss/es-toolkit</a></b>&nbsp;<sub><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" width="14" height="14" align="absmiddle" alt="" /> 11.4k</sub>
         </td>
         <td align="left">
-          <a href="https://github.com/toss/es-toolkit/pull/2222">fix(countBy): prevent prototype property collisions when counting (#2222)</a>
+          <a href="https://github.com/toss/es-toolkit/pull/2227">fix(round): avoid floating point precision issues when rounding (#2227)</a><br/><a href="https://github.com/toss/es-toolkit/pull/2222">fix(countBy): prevent prototype property collisions when counting (#2222)</a>
         </td>
         <td align="center">
           <img src="https://img.shields.io/badge/Open_PR-238636?style=flat-square&logo=github&logoColor=white" alt="Open PR" />
