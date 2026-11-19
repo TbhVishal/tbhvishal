@@ -82,7 +82,7 @@ function renderRepoRows(repoList, defaultStatus) {
   let rows = "";
   for (const r of repoList) {
     const avatarUrl = `https://github.com/${r.owner}.png?size=64`;
-    const starText = r.stars > 0 ? `&nbsp;<sub>★&nbsp;${formatStars(r.stars)}</sub>` : "";
+    const starText = r.stars > 0 ? `&nbsp;<sub>⭐&nbsp;${formatStars(r.stars)}</sub>` : "";
     const MAX_PR_SHOWN = 2;
     const visiblePrs = r.prs
       .slice(0, MAX_PR_SHOWN)
