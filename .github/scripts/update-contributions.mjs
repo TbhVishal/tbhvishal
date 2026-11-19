@@ -82,7 +82,7 @@ function renderRepoRows(repoList, defaultStatus) {
   let rows = "";
   for (const r of repoList) {
     const avatarUrl = `https://github.com/${r.owner}.png?size=64`;
-    const starText = r.stars > 0 ? `&nbsp;<sub><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" width="14" height="14" align="absmiddle" alt="" />&nbsp;${formatStars(r.stars)}</sub>` : "";
+    const starText = r.stars > 0 ? `&nbsp;<sub>⭐&nbsp;${formatStars(r.stars)}</sub>` : "";
     const MAX_PR_SHOWN = 2;
     const visiblePrs = r.prs
       .slice(0, MAX_PR_SHOWN)
@@ -200,8 +200,7 @@ function generateMarkdown(nodes) {
     out += `  <details>\n`;
     out += `    <summary>\n`;
     out += `      <b>\n`;
-    out += `        <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Card%20File%20Box.png" width="22" height="22" align="absmiddle" alt="" />\n`;
-    out += `        &nbsp;Click to expand in-review & remaining contributions (${totalHidden} repositories)\n`;
+    out += `        ◈&nbsp;Click to expand in-review & remaining contributions (${totalHidden} repositories)\n`;
     out += `      </b>\n`;
     out += `    </summary>\n`;
     out += `    <br/>\n`;

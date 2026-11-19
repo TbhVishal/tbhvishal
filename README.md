@@ -17,82 +17,90 @@
 ---
 
 <h2 align="center">
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Ringed%20Planet.png" width="38" height="38" align="absmiddle" alt="" />
-  &nbsp;Languages & Technologies
+  🪐 &nbsp;Languages & Technologies
 </h2>
 
 <div align="center">
   <table>
-    <tr>
-      <td align="center" width="22%" valign="middle">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/devicon/devicon-original.svg" width="24" height="24" align="absmiddle" alt="" />
-        &nbsp;<b>Languages</b>
-      </td>
-      <td valign="middle">
-        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
-        <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-        <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++"/>
-        <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C"/>
-        <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4Ij48cGF0aCBmaWxsPSJ3aGl0ZSIgZD0iTTQ3LjYxNyA5OC4xMnMtNC43NjcgMi43NzQgMy4zOTcgMy43MWM5Ljg5MiAxLjEzIDE0Ljk0Ny45NjggMjUuODQ1LTEuMDkyIDAgMCAyLjg3MSAxLjc5NSA2Ljg3MyAzLjM1MS0yNC40MzkgMTAuNDctNTUuMzA4LS42MDctMzYuMTE1LTUuOTY5em0tMi45ODgtMTMuNjY1cy01LjM0OCAzLjk1OSAyLjgyMyA0LjgwNWMxMC41NjcgMS4wOTEgMTguOTEgMS4xOCAzMy4zNTQtMS42IDAgMCAxLjk5MyAyLjAyNSA1LjEzMiAzLjEzMS0yOS41NDIgOC42NC02Mi40NDYuNjgtNDEuMzA5LTYuMzM2eiIvPjxwYXRoIGZpbGw9IndoaXRlIiBkPSJNNjkuODAyIDYxLjI3MWM2LjAyNSA2LjkzNS0xLjU4IDEzLjE3LTEuNTggMTMuMTdzMTUuMjg5LTcuODkxIDguMjY5LTE3Ljc3N2MtNi41NTktOS4yMTUtMTEuNTg3LTEzLjc5MiAxNS42MzUtMjkuNTggMCAuMDAxLTQyLjczMSAxMC42Ny0yMi4zMjQgMzQuMTg3eiIvPjxwYXRoIGZpbGw9IndoaXRlIiBkPSJNMTAyLjEyMyAxMDguMjI5czMuNTI5IDIuOTEtMy44ODggNS4xNTljLTE0LjEwMiA0LjI3Mi01OC43MDYgNS41Ni03MS4wOTQuMTcxLTQuNDUxLTEuOTM4IDMuODk5LTQuNjI1IDYuNTI2LTUuMTkyIDIuNzM5LS41OTMgNC4zMDMtLjQ4NSA0LjMwMy0uNDg1LTQuOTUzLTMuNDg3LTMyLjAxMyA2Ljg1LTEzLjc0MyA5LjgxNSA0OS44MjEgOC4wNzYgOTAuODE3LTMuNjM3IDc3Ljg5Ni05LjQ2OHpNNDkuOTEyIDcwLjI5NHMtMjIuNjg2IDUuMzg5LTguMDMzIDcuMzQ4YzYuMTg4LjgyOCAxOC41MTguNjM4IDMwLjAxMS0uMzI2IDkuMzktLjc4OSAxOC44MTMtMi40NzQgMTguODEzLTIuNDc0cy0zLjMwOCAxLjQxOS01LjcwNCAzLjA1M2MtMjMuMDQyIDYuMDYxLTY3LjU0NCAzLjIzOC01NC43MzEtMi45NTggMTAuODMyLTUuMjM5IDE5LjY0NC00LjY0MyAxOS42NDQtNC42NDN6bTQwLjY5NyAyMi43NDdjMjMuNDIxLTEyLjE2NyAxMi41OTEtMjMuODYgNS4wMzItMjIuMjg1LTEuODQ4LjM4NS0yLjY3Ny43Mi0yLjY3Ny43MnMuNjg4LTEuMDc5IDItMS41NDNjMTQuOTUzLTUuMjU1IDI2LjQ1MSAxNS41MDMtNC44MjMgMjMuNzI1IDAtLjAwMi4zNTktLjMyNy40NjgtLjYxN3oiLz48cGF0aCBmaWxsPSJ3aGl0ZSIgZD0iTTc2LjQ5MSAxLjU4N1M4OS40NTkgMTQuNTYzIDY0LjE4OCAzNC41MWMtMjAuMjY2IDE2LjAwNi00LjYyMSAyNS4xMy0uMDA3IDM1LjU1OS0xMS44MzEtMTAuNjczLTIwLjUwOS0yMC4wNy0xNC42ODgtMjguODE1QzU4LjA0MSAyOC40MiA4MS43MjIgMjIuMTk1IDc2LjQ5MSAxLjU4N3oiLz48cGF0aCBmaWxsPSJ3aGl0ZSIgZD0iTTUyLjIxNCAxMjYuMDIxYzIyLjQ3NiAxLjQzNyA1Ny0uOCA1Ny44MTctMTEuNDM2IDAgMC0xLjU3MSA0LjAzMi0xOC41NzcgNy4yMzEtMTkuMTg2IDMuNjEyLTQyLjg1NCAzLjE5MS01Ni44ODcuODc0IDAgLjAwMSAyLjg3NSAyLjM4MSAxNy42NDcgMy4zMzF6Ii8%2BPC9zdmc%2B" alt="Java"/>
-      </td>
-    </tr>
-    <tr>
-      <td align="center" width="22%" valign="middle">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="24" height="24" align="absmiddle" alt="" />
-        &nbsp;<b>Frontend</b>
-      </td>
-      <td valign="middle">
-        <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"/>
-        <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS"/>
-        <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
-        <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css&logoColor=white" alt="CSS3"/>
-      </td>
-    </tr>
-    <tr>
-      <td align="center" width="22%" valign="middle">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="24" height="24" align="absmiddle" alt="" />
-        &nbsp;<b>Backend</b>
-      </td>
-      <td valign="middle">
-        <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js"/>
-        <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express.js"/>
-        <img src="https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white" alt="Prisma"/>
-      </td>
-    </tr>
-    <tr>
-      <td align="center" width="22%" valign="middle">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="24" height="24" align="absmiddle" alt="" />
-        &nbsp;<b>Databases</b>
-      </td>
-      <td valign="middle">
-        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
-        <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"/>
-        <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis"/>
-      </td>
-    </tr>
-    <tr>
-      <td align="center" width="22%" valign="middle">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="24" height="24" align="absmiddle" alt="" />
-        &nbsp;<b>DevOps & Cloud</b>
-      </td>
-      <td valign="middle">
-        <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BCiAgPHRleHQgeD0iMTIiIHk9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZiIgZm9udC13ZWlnaHQ9IjkwMCIgZm9udC1zaXplPSI5IiBmaWxsPSJ3aGl0ZSIgbGV0dGVyLXNwYWNpbmc9Ii0wLjUiPmF3czwvdGV4dD4KICA8cGF0aCBmaWxsPSIjRkY5OTAwIiBkPSJNMjEuNjk4IDE2LjIwN2MtMi42MjYgMS45NC02LjQ0MiAyLjk2OS05LjcyMiAyLjk2OS00LjU5OCAwLTguNzQtMS43LTExLjg3LTQuNTI2LS4yNDctLjIyMy0uMDI0LS41MjcuMjcyLS4zNTEgMy4zODQgMS45NjMgNy41NTkgMy4xNTMgMTEuODc3IDMuMTUzIDIuOTE0IDAgNi4xMTQtLjYwNyA5LjA2LTEuODUyLjQzOS0uMi44MTQuMjg3LjM4My42MDd6Ii8%2BCiAgPHBhdGggZmlsbD0iI0ZGOTkwMCIgZD0iTTIyLjc5MiAxNC45NjFjLS4zMzYtLjQzLTIuMjItLjIwNy0zLjA3NC0uMTAzLS4yNTUuMDMyLS4yOTUtLjE5Mi0uMDYzLS4zNiAxLjUtMS4wNTMgMy45NjctLjc1IDQuMjU0LS4zOTkuMjg3LjM2LS4wOCAyLjgyNi0xLjQ4NSA0LjAwNy0uMjE1LjE4NC0uNDIzLjA4OC0uMzI3LS4xNTEuMzItLjc5IDEuMDMtMi41Ny42OTUtMi45OTR6Ii8%2BCjwvc3ZnPg%3D%3D" alt="AWS"/>
-        <img src="https://img.shields.io/badge/Oracle_Cloud-F80000?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4Ij48cGF0aCBmaWxsPSJ3aGl0ZSIgZD0iTTU1LjM4NyA2Ni40NjloOC4zMzNsLTQuNDA3LTcuMDktOC4wODggMTIuODE5aC0zLjY4MUw1Ny4zODIgNTYuOGEyLjMyNCAyLjMyNCAwIDAxMS45MzEtLjk5OGMuNzY1IDAgMS40NzguMzYzIDEuODkyLjk3Mmw5Ljg3NiAxNS40MjRINjcuNGwtMS43MzYtMi44NjVoLTguNDM4bC0xLjgzOS0yLjg2NHptMzguMjM1IDIuODY0VjU1Ljk1OGgtMy4xMjN2MTQuNjg1YzAgLjQwMi4xNTYuNzkxLjQ1NCAxLjA4OS4yOTguMjk4LjcuNDY2IDEuMTQxLjQ2NmgxNC4yNDRsMS44NDEtMi44NjVIOTMuNjIyem0tNTEuNjc3LTIuMzk3YzMuMDMzIDAgNS40OTYtMi40NDkgNS40OTYtNS40ODJzLTIuNDYyLTUuNDk2LTUuNDk2LTUuNDk2SDI4LjI4djE2LjI0MWgzLjEyM1Y1OC44MjJoMTAuMzM1YzEuNDUyIDAgMi42MTggMS4xOCAyLjYxOCAyLjYzMXMtMS4xNjcgMi42MzEtMi42MTggMi42MzFsLTguODA2LS4wMTMgOS4zMjQgOC4xMjdoNC41MzhsLTYuMjc0LTUuMjYzaDEuNDI1ek05LjA1OSA3Mi4xOThjLTQuNDgzIDAtOC4xMjItMy42MjktOC4xMjItOC4xMTRzMy42MzgtOC4xMjcgOC4xMjItOC4xMjdoOS40MzljNC40ODUgMCA4LjEyMSAzLjY0MyA4LjEyMSA4LjEyN3MtMy42MzYgOC4xMTQtOC4xMjEgOC4xMTRIOS4wNTl6bTkuMjI5LTIuODY1YTUuMjUgNS4yNSAwIDAwNS4yNTgtNS4yNDkgNS4yNjIgNS4yNjIgMCAwMC01LjI1OC01LjI2M0g5LjI2N2E1LjI2MiA1LjI2MiAwIDAwLTUuMjU2IDUuMjYzIDUuMjUgNS4yNSAwIDAwNS4yNTYgNS4yNDloOS4wMjF6bTU5LjMxNCAyLjg2NWMtNC40ODQgMC04LjEyNi0zLjYyOS04LjEyNi04LjExNHMzLjY0Mi04LjEyNyA4LjEyNi04LjEyN2gxMS4yMTJsLTEuODI5IDIuODY0SDc3LjgxYTUuMjY3IDUuMjY3IDAgMDAtNS4yNjQgNS4yNjNjMCAyLjkwMyAyLjM2IDUuMjQ5IDUuMjY0IDUuMjQ5aDExLjI2M2wtMS44NCAyLjg2NWgtOS42MzF6bTM4LjE5Ny0yLjg2NWE1LjI1IDUuMjUgMCAwMS01LjA1NS0zLjgyNGgxMy4zNWwxLjg0LTIuODY0aC0xNS4xOWE1LjI2NiA1LjI2NiAwIDAxNS4wNTUtMy44MjRoOS4xNjNsMS44NTQtMi44NjRoLTExLjIyNWMtNC40ODQgMC04LjEyNiAzLjY0My04LjEyNiA4LjEyN3MzLjY0MiA4LjExNCA4LjEyNiA4LjExNGg5LjYzMWwxLjg0MS0yLjg2NWgtMTEuMjY0Ii8%2BPC9zdmc%2B" alt="Oracle Cloud"/>
-        <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
-        <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux"/>
-        <img src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Cloudflare"/>
-        <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
-      </td>
-    </tr>
+    <tbody>
+      <tr>
+        <td align="center" width="22%" valign="middle">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/devicon/devicon-original.svg" width="24" height="24" align="absmiddle" alt="" />
+          &nbsp;<b>Languages</b>
+        </td>
+        <td valign="middle">
+          <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
+          <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
+          <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+          <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++"/>
+          <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C"/>
+          <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4Ij48cGF0aCBmaWxsPSJ3aGl0ZSIgZD0iTTQ3LjYxNyA5OC4xMnMtNC43NjcgMi43NzQgMy4zOTcgMy43MWM5Ljg5MiAxLjEzIDE0Ljk0Ny45NjggMjUuODQ1LTEuMDkyIDAgMCAyLjg3MSAxLjc5NSA2Ljg3MyAzLjM1MS0yNC40MzkgMTAuNDctNTUuMzA4LS42MDctMzYuMTE1LTUuOTY5em0tMi45ODgtMTMuNjY1cy01LjM0OCAzLjk1OSAyLjgyMyA0LjgwNWMxMC41NjcgMS4wOTEgMTguOTEgMS4xOCAzMy4zNTQtMS42IDAgMCAxLjk5MyAyLjAyNSA1LjEzMiAzLjEzMS0yOS41NDIgOC42NC02Mi40NDYuNjgtNDEuMzA5LTYuMzM2eiIvPjxwYXRoIGZpbGw9IndoaXRlIiBkPSJNNjkuODAyIDYxLjI3MWM2LjAyNSA2LjkzNS0xLjU4IDEzLjE3LTEuNTggMTMuMTdzMTUuMjg5LTcuODkxIDguMjY5LTE3Ljc3N2MtNi41NTktOS4yMTUtMTEuNTg3LTEzLjc5MiAxNS42MzUtMjkuNTggMCAuMDAxLTQyLjczMSAxMC42Ny0yMi4zMjQgMzQuMTg3eiIvPjxwYXRoIGZpbGw9IndoaXRlIiBkPSJNMTAyLjEyMyAxMDguMjI5czMuNTI5IDIuOTEtMy44ODggNS4xNTljLTE0LjEwMiA0LjI3Mi01OC43MDYgNS41Ni03MS4wOTQuMTcxLTQuNDUxLTEuOTM4IDMuODk5LTQuNjI1IDYuNTI2LTUuMTkyIDIuNzM5LS41OTMgNC4zMDMtLjQ4NSA0LjMwMy0uNDg1LTQuOTUzLTMuNDg3LTMyLjAxMyA2Ljg1LTEzLjc0MyA5LjgxNSA0OS44MjEgOC4wNzYgOTAuODE3LTMuNjM3IDc3Ljg5Ni05LjQ2OHpNNDkuOTEyIDcwLjI5NHMtMjIuNjg2IDUuMzg5LTguMDMzIDcuMzQ4YzYuMTg4LjgyOCAxOC41MTguNjM4IDMwLjAxMS0uMzI2IDkuMzktLjc4OSAxOC44MTMtMi40NzQgMTguODEzLTIuNDc0cy0zLjMwOCAxLjQxOS01LjcwNCAzLjA1M2MtMjMuMDQyIDYuMDYxLTY3LjU0NCAzLjIzOC01NC43MzEtMi45NTggMTAuODMyLTUuMjM5IDE5LjY0NC00LjY0MyAxOS42NDQtNC42NDN6bTQwLjY5NyAyMi43NDdjMjMuNDIxLTEyLjE2NyAxMi41OTEtMjMuODYgNS4wMzItMjIuMjg1LTEuODQ4LjM4NS0yLjY3Ny43Mi0yLjY3Ny43MnMuNjg4LTEuMDc5IDItMS41NDNjMTQuOTUzLTUuMjU1IDI2LjQ1MSAxNS41MDMtNC44MjMgMjMuNzI1IDAtLjAwMi4zNTktLjMyNy40NjgtLjYxN3oiLz48cGF0aCBmaWxsPSJ3aGl0ZSIgZD0iTTc2LjQ5MSAxLjU4N1M4OS40NTkgMTQuNTYzIDY0LjE4OCAzNC41MWMtMjAuMjY2IDE2LjAwNi00LjYyMSAyNS4xMy0uMDA3IDM1LjU1OS0xMS44MzEtMTAuNjczLTIwLjUwOS0yMC4wNy0xNC42ODgtMjguODE1QzU4LjA0MSAyOC40MiA4MS43MjIgMjIuMTk1IDc2LjQ5MSAxLjU4N3oiLz48cGF0aCBmaWxsPSJ3aGl0ZSIgZD0iTTUyLjIxNCAxMjYuMDIxYzIyLjQ3NiAxLjQzNyA1Ny0uOCA1Ny44MTctMTEuNDM2IDAgMC0xLjU3MSA0LjAzMi0xOC41NzcgNy4yMzEtMTkuMTg2IDMuNjEyLTQyLjg1NCAzLjE5MS01Ni44ODcuODc0IDAgLjAwMSAyLjg3NSAyLjM4MSAxNy42NDcgMy4zMzF6Ii8%2BPC9zdmc%2B" alt="Java"/>
+        </td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td align="center" width="22%" valign="middle">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="24" height="24" align="absmiddle" alt="" />
+          &nbsp;<b>Frontend</b>
+        </td>
+        <td valign="middle">
+          <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"/>
+          <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS"/>
+          <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
+          <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css&logoColor=white" alt="CSS3"/>
+        </td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td align="center" width="22%" valign="middle">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="24" height="24" align="absmiddle" alt="" />
+          &nbsp;<b>Backend</b>
+        </td>
+        <td valign="middle">
+          <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js"/>
+          <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express.js"/>
+          <img src="https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white" alt="Prisma"/>
+        </td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td align="center" width="22%" valign="middle">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="24" height="24" align="absmiddle" alt="" />
+          &nbsp;<b>Databases</b>
+        </td>
+        <td valign="middle">
+          <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
+          <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"/>
+          <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis"/>
+        </td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td align="center" width="22%" valign="middle">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="24" height="24" align="absmiddle" alt="" />
+          &nbsp;<b>DevOps & Cloud</b>
+        </td>
+        <td valign="middle">
+          <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BCiAgPHRleHQgeD0iMTIiIHk9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZiIgZm9udC13ZWlnaHQ9IjkwMCIgZm9udC1zaXplPSI5IiBmaWxsPSJ3aGl0ZSIgbGV0dGVyLXNwYWNpbmc9Ii0wLjUiPmF3czwvdGV4dD4KICA8cGF0aCBmaWxsPSIjRkY5OTAwIiBkPSJNMjEuNjk4IDE2LjIwN2MtMi42MjYgMS45NC02LjQ0MiAyLjk2OS05LjcyMiAyLjk2OS00LjU5OCAwLTguNzQtMS43LTExLjg3LTQuNTI2LS4yNDctLjIyMy0uMDI0LS41MjcuMjcyLS4zNTEgMy4zODQgMS45NjMgNy41NTkgMy4xNTMgMTEuODc3IDMuMTUzIDIuOTE0IDAgNi4xMTQtLjYwNyA5LjA2LTEuODUyLjQzOS0uMi44MTQuMjg3LjM4My42MDd6Ii8%2BCiAgPHBhdGggZmlsbD0iI0ZGOTkwMCIgZD0iTTIyLjc5MiAxNC45NjFjLS4zMzYtLjQzLTIuMjItLjIwNy0zLjA3NC0uMTAzLS4yNTUuMDMyLS4yOTUtLjE5Mi0uMDYzLS4zNiAxLjUtMS4wNTMgMy45NjctLjc1IDQuMjU0LS4zOTkuMjg3LjM2LS4wOCAyLjgyNi0xLjQ4NSA0LjAwNy0uMjE1LjE4NC0uNDIzLjA4OC0uMzI3LS4xNTEuMzItLjc5IDEuMDMtMi41Ny42OTUtMi45OTR6Ii8%2BCjwvc3ZnPg%3D%3D" alt="AWS"/>
+          <img src="https://img.shields.io/badge/Oracle_Cloud-F80000?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4Ij48cGF0aCBmaWxsPSJ3aGl0ZSIgZD0iTTU1LjM4NyA2Ni40NjloOC4zMzNsLTQuNDA3LTcuMDktOC4wODggMTIuODE5aC0zLjY4MUw1Ny4zODIgNTYuOGEyLjMyNCAyLjMyNCAwIDAxMS45MzEtLjk5OGMuNzY1IDAgMS40NzguMzYzIDEuODkyLjk3Mmw5Ljg3NiAxNS40MjRINjcuNGwtMS43MzYtMi44NjVoLTguNDM4bC0xLjgzOS0yLjg2NHptMzguMjM1IDIuODY0VjU1Ljk1OGgtMy4xMjN2MTQuNjg1YzAgLjQwMi4xNTYuNzkxLjQ1NCAxLjA4OS4yOTguMjk4LjcuNDY2IDEuMTQxLjQ2NmgxNC4yNDRsMS44NDEtMi44NjVIOTMuNjIyem0tNTEuNjc3LTIuMzk3YzMuMDMzIDAgNS40OTYtMi40NDkgNS40OTYtNS40ODJzLTIuNDYyLTUuNDk2LTUuNDk2LTUuNDk2SDI4LjI4djE2LjI0MWgzLjEyM1Y1OC44MjJoMTAuMzM1YzEuNDUyIDAgMi42MTggMS4xOCAyLjYxOCAyLjYzMXMtMS4xNjcgMi42MzEtMi42MTggMi42MzFsLTguODA2LS4wMTMgOS4zMjQgOC4xMjdoNC41MzhsLTYuMjc0LTUuMjYzaDEuNDI1ek05LjA1OSA3Mi4xOThjLTQuNDgzIDAtOC4xMjItMy42MjktOC4xMjItOC4xMTRzMy42MzgtOC4xMjcgOC4xMjItOC4xMjdoOS40MzljNC40ODUgMCA4LjEyMSAzLjY0MyA4LjEyMSA4LjEyN3MtMy42MzYgOC4xMTQtOC4xMjEgOC4xMTRIOS4wNTl6bTkuMjI5LTIuODY1YTUuMjUgNS4yNSAwIDAwNS4yNTgtNS4yNDkgNS4yNjIgNS4yNjIgMCAwMC01LjI1OC01LjI2M0g5LjI2N2E1LjI2MiA1LjI2MiAwIDAwLTUuMjU2IDUuMjYzIDUuMjUgNS4yNSAwIDAwNS4yNTYgNS4yNDloOS4wMjF6bTU5LjMxNCAyLjg2NWMtNC40ODQgMC04LjEyNi0zLjYyOS04LjEyNi04LjExNHMzLjY0Mi04LjEyNyA4LjEyNi04LjEyN2gxMS4yMTJsLTEuODI5IDIuODY0SDc3LjgxYTUuMjY3IDUuMjY3IDAgMDAtNS4yNjQgNS4yNjNjMCAyLjkwMyAyLjM2IDUuMjQ5IDUuMjY0IDUuMjQ5aDExLjI2M2wtMS44NCAyLjg2NWgtOS42MzF6bTM4LjE5Ny0yLjg2NWE1LjI1IDUuMjUgMCAwMS01LjA1NS0zLjgyNGgxMy4zNWwxLjg0LTIuODY0aC0xNS4xOWE1LjI2NiA1LjI2NiAwIDAxNS4wNTUtMy44MjRoOS4xNjNsMS44NTQtMi44NjRoLTExLjIyNWMtNC40ODQgMC04LjEyNiAzLjY0My04LjEyNiA4LjEyN3MzLjY0MiA4LjExNCA4LjEyNiA4LjExNGg5LjYzMWwxLjg0MS0yLjg2NWgtMTEuMjY0Ii8%2BPC9zdmc%2B" alt="Oracle Cloud"/>
+          <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
+          <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux"/>
+          <img src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Cloudflare"/>
+          <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
+        </td>
+      </tr>
+    </tbody>
   </table>
 </div>
 
 ---
 
 <h2 align="center">
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" width="38" height="38" align="absmiddle" alt="" />
-  &nbsp;GitHub Activity & Performance
+  🚀 &nbsp;GitHub Activity & Performance
 </h2>
 
 <p align="center">
@@ -107,8 +115,7 @@
 ---
 
 <h2 align="center">
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Party%20Popper.png" width="38" height="38" align="absmiddle" alt="" />
-  &nbsp;Achievements & Badges
+  🎉 &nbsp;Achievements & Badges
 </h2>
 
 <div align="center">
@@ -121,8 +128,7 @@
 ---
 
 <h2 align="center">
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" width="38" height="38" align="absmiddle" alt="" />
-  &nbsp;Open Source Contributions
+  💻 &nbsp;Open Source Contributions
 </h2>
 
 <!-- RECENT_CONTRIBUTIONS:START -->
@@ -325,8 +331,7 @@
 ---
 
 <h2 align="center">
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Handshake.png" width="38" height="38" align="absmiddle" alt="" />
-  &nbsp;Connect with Me
+  🤝 &nbsp;Connect with Me
 </h2>
 
 <div align="center">
@@ -339,4 +344,209 @@
   </a>
 </div>
 
+
+
+
+<h2 align="center">
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" width="38" height="38" align="absmiddle" alt="" />
+  &nbsp;Open Source Contributions
+</h2>
+
+<!-- RECENT_CONTRIBUTIONS:START -->
+<p align="center">
+  <a href="https://github.com/search?q=author%3Atbhvishal+type%3Apr+is%3Amerged">
+    <img src="https://img.shields.io/badge/Status-Active_Contributor-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="Active Contributor" />
+  </a>
+  &nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/Code-Merged_to_Production-8957E5?style=for-the-badge&logo=git&logoColor=white" alt="Merged to Production" />
+</p>
+
+<div align="center">
+  <table width="100%">
+    <thead>
+      <tr>
+        <th align="left" width="34%">Project</th>
+        <th align="left" width="52%">Pull Request</th>
+        <th align="center" width="14%" nowrap>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td align="left" width="34%">
+          <img src="https://github.com/homarr-labs.png?size=64" width="28" height="28" align="absmiddle" style="border-radius: 6px;" />
+          &nbsp;<b><a href="https://github.com/homarr-labs/homarr">homarr-labs/&#8203;homarr</a></b>&nbsp;<sub>⭐&nbsp;5.4k</sub>
+        </td>
+        <td align="left" width="52%">
+          <a href="https://github.com/homarr-labs/homarr/pull/7545">fix(rss-feed): prioritize published date over updated for atom and youtube feeds (#7544) (#7545)</a>
+        </td>
+        <td align="center" width="14%" nowrap>
+          <img src="https://img.shields.io/badge/Merged-8957E5?style=flat-square&logo=github&logoColor=white" alt="Merged" />
+        </td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td align="left" width="34%">
+          <img src="https://github.com/Agenta-AI.png?size=64" width="28" height="28" align="absmiddle" style="border-radius: 6px;" />
+          &nbsp;<b><a href="https://github.com/Agenta-AI/agenta">Agenta-AI/&#8203;agenta</a></b>&nbsp;<sub>⭐&nbsp;4.9k</sub>
+        </td>
+        <td align="left" width="52%">
+          <a href="https://github.com/Agenta-AI/agenta/pull/8270">fix(annotation): replace evaluator testset column on sync to clear deleted fields (#8111) (#8270)</a>
+        </td>
+        <td align="center" width="14%" nowrap>
+          <img src="https://img.shields.io/badge/Merged-8957E5?style=flat-square&logo=github&logoColor=white" alt="Merged" />
+        </td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td align="left" width="34%">
+          <img src="https://github.com/embedpdf.png?size=64" width="28" height="28" align="absmiddle" style="border-radius: 6px;" />
+          &nbsp;<b><a href="https://github.com/embedpdf/embed-pdf-viewer">embedpdf/&#8203;embed-pdf-viewer</a></b>&nbsp;<sub>⭐&nbsp;4.7k</sub>
+        </td>
+        <td align="left" width="52%">
+          <a href="https://github.com/embedpdf/embed-pdf-viewer/pull/1069">fix(viewer-chrome): format comment timestamps with time and year (#1043) (#1069)</a>
+        </td>
+        <td align="center" width="14%" nowrap>
+          <img src="https://img.shields.io/badge/Merged-8957E5?style=flat-square&logo=github&logoColor=white" alt="Merged" />
+        </td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td align="left" width="34%">
+          <img src="https://github.com/lingdojo.png?size=64" width="28" height="28" align="absmiddle" style="border-radius: 6px;" />
+          &nbsp;<b><a href="https://github.com/lingdojo/kana-dojo">lingdojo/&#8203;kana-dojo</a></b>&nbsp;<sub>⭐&nbsp;3.9k</sub>
+        </td>
+        <td align="left" width="52%">
+          <a href="https://github.com/lingdojo/kana-dojo/pull/33775">content: add new japanese false friend (#33775)</a>
+        </td>
+        <td align="center" width="14%" nowrap>
+          <img src="https://img.shields.io/badge/Merged-8957E5?style=flat-square&logo=github&logoColor=white" alt="Merged" />
+        </td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td align="left" width="34%">
+          <img src="https://github.com/nagcas.png?size=64" width="28" height="28" align="absmiddle" style="border-radius: 6px;" />
+          &nbsp;<b><a href="https://github.com/nagcas/TerraQuakeApi">nagcas/&#8203;TerraQuakeApi</a></b>&nbsp;<sub>⭐&nbsp;34</sub>
+        </td>
+        <td align="left" width="52%">
+          <a href="https://github.com/nagcas/TerraQuakeApi/pull/105">Improve README documentation" and description summarizing the changes (e.g., "Fixed broken emojis, added setup guide, updated API docs, improved navigation links (#105)</a>
+        </td>
+        <td align="center" width="14%" nowrap>
+          <img src="https://img.shields.io/badge/Merged-8957E5?style=flat-square&logo=github&logoColor=white" alt="Merged" />
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div align="center">
+  <details>
+    <summary>
+      <b>
+        ◈&nbsp;Click to expand in-review & remaining contributions (6 repositories)
+      </b>
+    </summary>
+    <br/>
+    <table width="100%">
+      <thead>
+        <tr>
+          <th align="left" width="34%">Project</th>
+          <th align="left" width="52%">Pull Request</th>
+          <th align="center" width="14%" nowrap>Status</th>
+        </tr>
+      </thead>
+    <tbody>
+      <tr>
+        <td align="left" width="34%">
+          <img src="https://github.com/meta.png?size=64" width="28" height="28" align="absmiddle" style="border-radius: 6px;" />
+          &nbsp;<b><a href="https://github.com/meta/docusaurus">meta/&#8203;docusaurus</a></b>&nbsp;<sub>⭐&nbsp;66.8k</sub>
+        </td>
+        <td align="left" width="52%">
+          <a href="https://github.com/meta/docusaurus/pull/12941">fix(theme-classic): do not hide announcement bar on new id for previously dismissed users (#12941)</a><br/><a href="https://github.com/meta/docusaurus/pull/12939">fix(utils): preserve trailing hash in ATX heading titles (#12939)</a>
+        </td>
+        <td align="center" width="14%" nowrap>
+          <img src="https://img.shields.io/badge/Open_PR-238636?style=flat-square&logo=github&logoColor=white" alt="Open PR" />
+        </td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td align="left" width="34%">
+          <img src="https://github.com/calcom.png?size=64" width="28" height="28" align="absmiddle" style="border-radius: 6px;" />
+          &nbsp;<b><a href="https://github.com/calcom/cal.diy">calcom/&#8203;cal.diy</a></b>&nbsp;<sub>⭐&nbsp;50.2k</sub>
+        </td>
+        <td align="left" width="52%">
+          <a href="https://github.com/calcom/cal.diy/pull/30554">fix(pipedrive): format activity due_time in UTC instead of server local time (#30541) (#30554)</a>
+        </td>
+        <td align="center" width="14%" nowrap>
+          <img src="https://img.shields.io/badge/Open_PR-238636?style=flat-square&logo=github&logoColor=white" alt="Open PR" />
+        </td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td align="left" width="34%">
+          <img src="https://github.com/meta.png?size=64" width="28" height="28" align="absmiddle" style="border-radius: 6px;" />
+          &nbsp;<b><a href="https://github.com/meta/astryx">meta/&#8203;astryx</a></b>&nbsp;<sub>⭐&nbsp;30.6k</sub>
+        </td>
+        <td align="left" width="52%">
+          <a href="https://github.com/meta/astryx/pull/12173">perf(core): merge props in a single pass (#12173)</a><br/><a href="https://github.com/meta/astryx/pull/12088">perf(core): cache computed theme data attribute names (#12088)</a>
+        </td>
+        <td align="center" width="14%" nowrap>
+          <img src="https://img.shields.io/badge/Open_PR-238636?style=flat-square&logo=github&logoColor=white" alt="Open PR" />
+        </td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td align="left" width="34%">
+          <img src="https://github.com/toss.png?size=64" width="28" height="28" align="absmiddle" style="border-radius: 6px;" />
+          &nbsp;<b><a href="https://github.com/toss/es-toolkit">toss/&#8203;es-toolkit</a></b>&nbsp;<sub>⭐&nbsp;11.4k</sub>
+        </td>
+        <td align="left" width="52%">
+          <a href="https://github.com/toss/es-toolkit/pull/2227">fix(round): avoid floating point precision issues when rounding (#2227)</a><br/><a href="https://github.com/toss/es-toolkit/pull/2222">fix(countBy): prevent prototype property collisions when counting (#2222)</a>
+        </td>
+        <td align="center" width="14%" nowrap>
+          <img src="https://img.shields.io/badge/Open_PR-238636?style=flat-square&logo=github&logoColor=white" alt="Open PR" />
+        </td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td align="left" width="34%">
+          <img src="https://github.com/BuilderIO.png?size=64" width="28" height="28" align="absmiddle" style="border-radius: 6px;" />
+          &nbsp;<b><a href="https://github.com/BuilderIO/agent-native">BuilderIO/&#8203;agent-native</a></b>&nbsp;<sub>⭐&nbsp;7.7k</sub>
+        </td>
+        <td align="left" width="52%">
+          <a href="https://github.com/BuilderIO/agent-native/pull/9039">fix(core): surface Telegram webhook errors and validate secret (#9018) (#9039)</a>
+        </td>
+        <td align="center" width="14%" nowrap>
+          <img src="https://img.shields.io/badge/Open_PR-238636?style=flat-square&logo=github&logoColor=white" alt="Open PR" />
+        </td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td align="left" width="34%">
+          <img src="https://github.com/Lumiwealth.png?size=64" width="28" height="28" align="absmiddle" style="border-radius: 6px;" />
+          &nbsp;<b><a href="https://github.com/Lumiwealth/lumibot">Lumiwealth/&#8203;lumibot</a></b>&nbsp;<sub>⭐&nbsp;2.2k</sub>
+        </td>
+        <td align="left" width="52%">
+          <a href="https://github.com/Lumiwealth/lumibot/pull/1279">fix(backtest): check polars DataFrame with isinstance (#1267) (#1279)</a>
+        </td>
+        <td align="center" width="14%" nowrap>
+          <img src="https://img.shields.io/badge/Open_PR-238636?style=flat-square&logo=github&logoColor=white" alt="Open PR" />
+        </td>
+      </tr>
+    </tbody>
+    </table>
+  </details>
+</div>
+<!-- RECENT_CONTRIBUTIONS:END -->
+
+---
 
