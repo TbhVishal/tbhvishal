@@ -330,7 +330,7 @@
 ---
 
 <h2 align="center">
-  Connect with Me
+  🤝 Connect with Me
 </h2>
 
 <div align="center">
