@@ -256,7 +256,7 @@
       <tr>
         <td align="left" width="34%">
           <img src="https://github.com/calcom.png?size=64" width="28" height="28" align="absmiddle" style="border-radius: 6px;" />
-          &nbsp;<b><a href="https://github.com/calcom/cal.diy">calcom/&#8203;cal.diy</a></b>&nbsp;<sub>⭐&nbsp;50.2k</sub>
+          &nbsp;<b><a href="https://github.com/calcom/cal.diy">calcom/&#8203;cal.diy</a></b>&nbsp;<sub>⭐&nbsp;50.3k</sub>
         </td>
         <td align="left" width="52%">
           <a href="https://github.com/calcom/cal.diy/pull/30554">fix(pipedrive): format activity due_time in UTC instead of server local time (#30541) (#30554)</a>
@@ -270,7 +270,7 @@
       <tr>
         <td align="left" width="34%">
           <img src="https://github.com/meta.png?size=64" width="28" height="28" align="absmiddle" style="border-radius: 6px;" />
-          &nbsp;<b><a href="https://github.com/meta/astryx">meta/&#8203;astryx</a></b>&nbsp;<sub>⭐&nbsp;31.2k</sub>
+          &nbsp;<b><a href="https://github.com/meta/astryx">meta/&#8203;astryx</a></b>&nbsp;<sub>⭐&nbsp;31.3k</sub>
         </td>
         <td align="left" width="52%">
           <a href="https://github.com/meta/astryx/pull/12173">perf(core): merge props in a single pass (#12173)</a><br/><a href="https://github.com/meta/astryx/pull/12088">perf(core): cache computed theme data attribute names (#12088)</a>
