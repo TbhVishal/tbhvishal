@@ -226,7 +226,7 @@
   <details>
     <summary>
       <b>
-        Click to expand in-review & remaining contributions (7 repositories)
+        Click to expand in-review & remaining contributions (8 repositories)
       </b>
     </summary>
     <br/>
@@ -255,6 +255,20 @@
     <tbody>
       <tr>
         <td align="left" width="34%">
+          <img src="https://github.com/TanStack.png?size=64" width="28" height="28" align="absmiddle" style="border-radius: 6px;" />
+          &nbsp;<b><a href="https://github.com/TanStack/query">TanStack/&#8203;query</a></b>&nbsp;<sub>⭐&nbsp;50.6k</sub>
+        </td>
+        <td align="left" width="52%">
+          <a href="https://github.com/TanStack/query/pull/12651">fix(query-core): prevent array matching plain object in partialMatchKey (#12651)</a>
+        </td>
+        <td align="center" width="14%" nowrap>
+          <img src="https://img.shields.io/badge/Open_PR-238636?style=flat-square&logo=github&logoColor=white" alt="Open PR" />
+        </td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td align="left" width="34%">
           <img src="https://github.com/calcom.png?size=64" width="28" height="28" align="absmiddle" style="border-radius: 6px;" />
           &nbsp;<b><a href="https://github.com/calcom/cal.diy">calcom/&#8203;cal.diy</a></b>&nbsp;<sub>⭐&nbsp;50.3k</sub>
         </td>
@@ -270,7 +284,7 @@
       <tr>
         <td align="left" width="34%">
           <img src="https://github.com/meta.png?size=64" width="28" height="28" align="absmiddle" style="border-radius: 6px;" />
-          &nbsp;<b><a href="https://github.com/meta/astryx">meta/&#8203;astryx</a></b>&nbsp;<sub>⭐&nbsp;31.3k</sub>
+          &nbsp;<b><a href="https://github.com/meta/astryx">meta/&#8203;astryx</a></b>&nbsp;<sub>⭐&nbsp;31.5k</sub>
         </td>
         <td align="left" width="52%">
           <a href="https://github.com/meta/astryx/pull/12173">perf(core): merge props in a single pass (#12173)</a><br/><a href="https://github.com/meta/astryx/pull/12088">perf(core): cache computed theme data attribute names (#12088)</a>
