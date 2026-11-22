@@ -152,8 +152,22 @@
     <tbody>
       <tr>
         <td align="left" width="34%">
+          <img src="https://github.com/TanStack.png?size=64" width="28" height="28" align="absmiddle" style="border-radius: 6px;" />
+          &nbsp;<b><a href="https://github.com/TanStack/query">TanStack/&#8203;query</a></b>&nbsp;<sub>⭐&nbsp;50.6k</sub>
+        </td>
+        <td align="left" width="52%">
+          <a href="https://github.com/TanStack/query/pull/12651">fix(query-core): prevent array matching plain object in partialMatchKey (#12651)</a>
+        </td>
+        <td align="center" width="14%" nowrap>
+          <img src="https://img.shields.io/badge/Merged-8957E5?style=flat-square&logo=github&logoColor=white" alt="Merged" />
+        </td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td align="left" width="34%">
           <img src="https://github.com/meta.png?size=64" width="28" height="28" align="absmiddle" style="border-radius: 6px;" />
-          &nbsp;<b><a href="https://github.com/meta/astryx">meta/&#8203;astryx</a></b>&nbsp;<sub>⭐&nbsp;32.1k</sub>
+          &nbsp;<b><a href="https://github.com/meta/astryx">meta/&#8203;astryx</a></b>&nbsp;<sub>⭐&nbsp;32.2k</sub>
         </td>
         <td align="left" width="52%">
           <a href="https://github.com/meta/astryx/pull/12173">perf(core): merge props in a single pass (#12173)</a><br/><a href="https://github.com/meta/astryx/pull/12088">perf(core): skip the kebab-case regex for lowercase theme prop names (#12088)</a>
@@ -240,7 +254,7 @@
   <details>
     <summary>
       <b>
-        Click to expand in-review & remaining contributions (7 repositories)
+        Click to expand in-review & remaining contributions (6 repositories)
       </b>
     </summary>
     <br/>
@@ -260,20 +274,6 @@
         </td>
         <td align="left" width="52%">
           <a href="https://github.com/meta/docusaurus/pull/12941">fix(theme-classic): do not hide announcement bar on new id for previously dismissed users (#12941)</a><br/><a href="https://github.com/meta/docusaurus/pull/12939">fix(utils): preserve trailing hash in ATX heading titles (#12939)</a>
-        </td>
-        <td align="center" width="14%" nowrap>
-          <img src="https://img.shields.io/badge/Open_PR-238636?style=flat-square&logo=github&logoColor=white" alt="Open PR" />
-        </td>
-      </tr>
-    </tbody>
-    <tbody>
-      <tr>
-        <td align="left" width="34%">
-          <img src="https://github.com/TanStack.png?size=64" width="28" height="28" align="absmiddle" style="border-radius: 6px;" />
-          &nbsp;<b><a href="https://github.com/TanStack/query">TanStack/&#8203;query</a></b>&nbsp;<sub>⭐&nbsp;50.6k</sub>
-        </td>
-        <td align="left" width="52%">
-          <a href="https://github.com/TanStack/query/pull/12651">fix(query-core): prevent array matching plain object in partialMatchKey (#12651)</a>
         </td>
         <td align="center" width="14%" nowrap>
           <img src="https://img.shields.io/badge/Open_PR-238636?style=flat-square&logo=github&logoColor=white" alt="Open PR" />
