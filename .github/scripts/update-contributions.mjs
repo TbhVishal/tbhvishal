@@ -83,7 +83,7 @@ function renderRepoRows(repoList, defaultStatus) {
   for (const r of repoList) {
     const avatarUrl = `https://github.com/${r.owner}.png?size=64`;
     const starText = r.stars > 0 ? `&nbsp;<sub>⭐&nbsp;${formatStars(r.stars)}</sub>` : "";
-    const MAX_PR_SHOWN = 2;
+    const MAX_PR_SHOWN = 3;
     const visiblePrs = r.prs
       .slice(0, MAX_PR_SHOWN)
       .map((p) => `<a href="${p.url}">${sanitize(p.title)} (#${p.number})</a>`);
