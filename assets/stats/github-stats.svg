@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Vishal Sharma's GitHub Stats, Rank: A++</title>
-        <desc id="descId">Total Stars Earned: 52, Total Commits  : 52, Total PRs: 27, Total Issues: 0, Contributed to (last year): 17</desc>
+        <desc id="descId">Total Stars Earned: 51, Total Commits  : 51, Total PRs: 28, Total Issues: 0, Contributed to (last year): 18</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -67,7 +67,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 83.29137067581108;
+        stroke-dashoffset: 83.28327974242619;
       }
     }
   
@@ -160,7 +160,7 @@
         x="219.01"
         y="12.5"
         data-testid="stars"
-      >52</text>
+      >51</text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms" transform="translate(25, 0)">
@@ -190,7 +190,7 @@
         x="219.01"
         y="12.5"
         data-testid="prs"
-      >27</text>
+      >28</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
@@ -220,7 +220,7 @@
         x="219.01"
         y="12.5"
         data-testid="contribs"
-      >17</text>
+      >18</text>
     </g>
   </g>
     </svg>
