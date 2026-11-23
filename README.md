@@ -167,7 +167,7 @@
       <tr>
         <td align="left" width="34%">
           <img src="https://github.com/meta.png?size=64" width="28" height="28" align="absmiddle" style="border-radius: 6px;" />
-          &nbsp;<b><a href="https://github.com/meta/astryx">meta/&#8203;astryx</a></b>&nbsp;<sub>⭐&nbsp;32.4k</sub>
+          &nbsp;<b><a href="https://github.com/meta/astryx">meta/&#8203;astryx</a></b>&nbsp;<sub>⭐&nbsp;32.5k</sub>
         </td>
         <td align="left" width="52%">
           <a href="https://github.com/meta/astryx/pull/12173">perf(core): merge props in a single pass (#12173)</a><br/><a href="https://github.com/meta/astryx/pull/12088">perf(core): skip the kebab-case regex for lowercase theme prop names (#12088)</a>
@@ -270,7 +270,7 @@
       <tr>
         <td align="left" width="34%">
           <img src="https://github.com/remotion-dev.png?size=64" width="28" height="28" align="absmiddle" style="border-radius: 6px;" />
-          &nbsp;<b><a href="https://github.com/remotion-dev/remotion">remotion-dev/&#8203;remotion</a></b>&nbsp;<sub>⭐&nbsp;75.1k</sub>
+          &nbsp;<b><a href="https://github.com/remotion-dev/remotion">remotion-dev/&#8203;remotion</a></b>&nbsp;<sub>⭐&nbsp;75.2k</sub>
         </td>
         <td align="left" width="52%">
           <a href="https://github.com/remotion-dev/remotion/pull/13577">fix(shapes): clamp makeCallout corner radius to adjacent edge lengths (#13577)</a>
@@ -354,7 +354,7 @@
       <tr>
         <td align="left" width="34%">
           <img src="https://github.com/Lumiwealth.png?size=64" width="28" height="28" align="absmiddle" style="border-radius: 6px;" />
-          &nbsp;<b><a href="https://github.com/Lumiwealth/lumibot">Lumiwealth/&#8203;lumibot</a></b>&nbsp;<sub>⭐&nbsp;2.2k</sub>
+          &nbsp;<b><a href="https://github.com/Lumiwealth/lumibot">Lumiwealth/&#8203;lumibot</a></b>&nbsp;<sub>⭐&nbsp;2.3k</sub>
         </td>
         <td align="left" width="52%">
           <a href="https://github.com/Lumiwealth/lumibot/pull/1279">fix(backtest): check polars DataFrame with isinstance (#1267) (#1279)</a>
