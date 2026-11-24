@@ -167,7 +167,7 @@
       <tr>
         <td align="left" width="34%">
           <img src="https://github.com/meta.png?size=64" width="28" height="28" align="absmiddle" style="border-radius: 6px;" />
-          &nbsp;<b><a href="https://github.com/meta/astryx">meta/&#8203;astryx</a></b>&nbsp;<sub>⭐&nbsp;32.5k</sub>
+          &nbsp;<b><a href="https://github.com/meta/astryx">meta/&#8203;astryx</a></b>&nbsp;<sub>⭐&nbsp;32.7k</sub>
         </td>
         <td align="left" width="52%">
           <a href="https://github.com/meta/astryx/pull/12173">perf(core): merge props in a single pass (#12173)</a><br/><a href="https://github.com/meta/astryx/pull/12088">perf(core): skip the kebab-case regex for lowercase theme prop names (#12088)</a>
@@ -270,7 +270,7 @@
       <tr>
         <td align="left" width="34%">
           <img src="https://github.com/remotion-dev.png?size=64" width="28" height="28" align="absmiddle" style="border-radius: 6px;" />
-          &nbsp;<b><a href="https://github.com/remotion-dev/remotion">remotion-dev/&#8203;remotion</a></b>&nbsp;<sub>⭐&nbsp;75.2k</sub>
+          &nbsp;<b><a href="https://github.com/remotion-dev/remotion">remotion-dev/&#8203;remotion</a></b>&nbsp;<sub>⭐&nbsp;75.3k</sub>
         </td>
         <td align="left" width="52%">
           <a href="https://github.com/remotion-dev/remotion/pull/13577">fix(shapes): clamp makeCallout corner radius to adjacent edge lengths (#13577)</a>
@@ -326,7 +326,7 @@
       <tr>
         <td align="left" width="34%">
           <img src="https://github.com/BuilderIO.png?size=64" width="28" height="28" align="absmiddle" style="border-radius: 6px;" />
-          &nbsp;<b><a href="https://github.com/BuilderIO/agent-native">BuilderIO/&#8203;agent-native</a></b>&nbsp;<sub>⭐&nbsp;7.7k</sub>
+          &nbsp;<b><a href="https://github.com/BuilderIO/agent-native">BuilderIO/&#8203;agent-native</a></b>&nbsp;<sub>⭐&nbsp;7.8k</sub>
         </td>
         <td align="left" width="52%">
           <a href="https://github.com/BuilderIO/agent-native/pull/9039">fix(core): surface Telegram webhook errors and validate secret (#9018) (#9039)</a>
