@@ -152,6 +152,20 @@
     <tbody>
       <tr>
         <td align="left" width="34%">
+          <img src="https://github.com/remotion-dev.png?size=64" width="28" height="28" align="absmiddle" style="border-radius: 6px;" />
+          &nbsp;<b><a href="https://github.com/remotion-dev/remotion">remotion-dev/&#8203;remotion</a></b>&nbsp;<sub>⭐&nbsp;75.4k</sub>
+        </td>
+        <td align="left" width="52%">
+          <a href="https://github.com/remotion-dev/remotion/pull/13577">`@remotion/shapes`: clamp makeCallout corner radius to adjacent edge lengths (#13577)</a>
+        </td>
+        <td align="center" width="14%" nowrap>
+          <img src="https://img.shields.io/badge/Merged-8957E5?style=flat-square&logo=github&logoColor=white" alt="Merged" />
+        </td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td align="left" width="34%">
           <img src="https://github.com/TanStack.png?size=64" width="28" height="28" align="absmiddle" style="border-radius: 6px;" />
           &nbsp;<b><a href="https://github.com/TanStack/query">TanStack/&#8203;query</a></b>&nbsp;<sub>⭐&nbsp;50.6k</sub>
         </td>
@@ -167,7 +181,7 @@
       <tr>
         <td align="left" width="34%">
           <img src="https://github.com/meta.png?size=64" width="28" height="28" align="absmiddle" style="border-radius: 6px;" />
-          &nbsp;<b><a href="https://github.com/meta/astryx">meta/&#8203;astryx</a></b>&nbsp;<sub>⭐&nbsp;32.7k</sub>
+          &nbsp;<b><a href="https://github.com/meta/astryx">meta/&#8203;astryx</a></b>&nbsp;<sub>⭐&nbsp;32.8k</sub>
         </td>
         <td align="left" width="52%">
           <a href="https://github.com/meta/astryx/pull/12173">perf(core): merge props in a single pass (#12173)</a><br/><a href="https://github.com/meta/astryx/pull/12088">perf(core): skip the kebab-case regex for lowercase theme prop names (#12088)</a>
@@ -269,11 +283,11 @@
     <tbody>
       <tr>
         <td align="left" width="34%">
-          <img src="https://github.com/remotion-dev.png?size=64" width="28" height="28" align="absmiddle" style="border-radius: 6px;" />
-          &nbsp;<b><a href="https://github.com/remotion-dev/remotion">remotion-dev/&#8203;remotion</a></b>&nbsp;<sub>⭐&nbsp;75.3k</sub>
+          <img src="https://github.com/heygen-com.png?size=64" width="28" height="28" align="absmiddle" style="border-radius: 6px;" />
+          &nbsp;<b><a href="https://github.com/heygen-com/hyperframes">heygen-com/&#8203;hyperframes</a></b>&nbsp;<sub>⭐&nbsp;89.4k</sub>
         </td>
         <td align="left" width="52%">
-          <a href="https://github.com/remotion-dev/remotion/pull/13577">fix(shapes): clamp makeCallout corner radius to adjacent edge lengths (#13577)</a>
+          <a href="https://github.com/heygen-com/hyperframes/pull/8708">feat(cli): support visibleDuring assertion in motion spec (#8708)</a>
         </td>
         <td align="center" width="14%" nowrap>
           <img src="https://img.shields.io/badge/Open_PR-238636?style=flat-square&logo=github&logoColor=white" alt="Open PR" />
@@ -298,7 +312,7 @@
       <tr>
         <td align="left" width="34%">
           <img src="https://github.com/calcom.png?size=64" width="28" height="28" align="absmiddle" style="border-radius: 6px;" />
-          &nbsp;<b><a href="https://github.com/calcom/cal.diy">calcom/&#8203;cal.diy</a></b>&nbsp;<sub>⭐&nbsp;50.3k</sub>
+          &nbsp;<b><a href="https://github.com/calcom/cal.diy">calcom/&#8203;cal.diy</a></b>&nbsp;<sub>⭐&nbsp;50.4k</sub>
         </td>
         <td align="left" width="52%">
           <a href="https://github.com/calcom/cal.diy/pull/30554">fix(pipedrive): format activity due_time in UTC instead of server local time (#30541) (#30554)</a>
