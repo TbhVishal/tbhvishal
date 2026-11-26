@@ -153,7 +153,7 @@
       <tr>
         <td align="left" width="34%">
           <img src="https://github.com/remotion-dev.png?size=64" width="28" height="28" align="absmiddle" style="border-radius: 6px;" />
-          &nbsp;<b><a href="https://github.com/remotion-dev/remotion">remotion-dev/&#8203;remotion</a></b>&nbsp;<sub>⭐&nbsp;75.8k</sub>
+          &nbsp;<b><a href="https://github.com/remotion-dev/remotion">remotion-dev/&#8203;remotion</a></b>&nbsp;<sub>⭐&nbsp;75.9k</sub>
         </td>
         <td align="left" width="52%">
           <a href="https://github.com/remotion-dev/remotion/pull/13577">`@remotion/shapes`: clamp makeCallout corner radius to adjacent edge lengths (#13577)</a>
@@ -167,7 +167,7 @@
       <tr>
         <td align="left" width="34%">
           <img src="https://github.com/TanStack.png?size=64" width="28" height="28" align="absmiddle" style="border-radius: 6px;" />
-          &nbsp;<b><a href="https://github.com/TanStack/query">TanStack/&#8203;query</a></b>&nbsp;<sub>⭐&nbsp;50.6k</sub>
+          &nbsp;<b><a href="https://github.com/TanStack/query">TanStack/&#8203;query</a></b>&nbsp;<sub>⭐&nbsp;50.7k</sub>
         </td>
         <td align="left" width="52%">
           <a href="https://github.com/TanStack/query/pull/12651">fix(query-core): prevent array matching plain object in partialMatchKey (#12651)</a>
@@ -181,7 +181,7 @@
       <tr>
         <td align="left" width="34%">
           <img src="https://github.com/meta.png?size=64" width="28" height="28" align="absmiddle" style="border-radius: 6px;" />
-          &nbsp;<b><a href="https://github.com/meta/astryx">meta/&#8203;astryx</a></b>&nbsp;<sub>⭐&nbsp;33.2k</sub>
+          &nbsp;<b><a href="https://github.com/meta/astryx">meta/&#8203;astryx</a></b>&nbsp;<sub>⭐&nbsp;33.3k</sub>
         </td>
         <td align="left" width="52%">
           <a href="https://github.com/meta/astryx/pull/12173">perf(core): merge props in a single pass (#12173)</a><br/><a href="https://github.com/meta/astryx/pull/12088">perf(core): skip the kebab-case regex for lowercase theme prop names (#12088)</a>
@@ -284,7 +284,7 @@
       <tr>
         <td align="left" width="34%">
           <img src="https://github.com/heygen-com.png?size=64" width="28" height="28" align="absmiddle" style="border-radius: 6px;" />
-          &nbsp;<b><a href="https://github.com/heygen-com/hyperframes">heygen-com/&#8203;hyperframes</a></b>&nbsp;<sub>⭐&nbsp;90.2k</sub>
+          &nbsp;<b><a href="https://github.com/heygen-com/hyperframes">heygen-com/&#8203;hyperframes</a></b>&nbsp;<sub>⭐&nbsp;90.5k</sub>
         </td>
         <td align="left" width="52%">
           <a href="https://github.com/heygen-com/hyperframes/pull/8708">feat(cli): support visibleDuring assertion in motion spec (#8708)</a>
