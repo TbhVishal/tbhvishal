@@ -153,7 +153,7 @@
       <tr>
         <td align="left" width="34%">
           <img src="https://github.com/remotion-dev.png?size=64" width="28" height="28" align="absmiddle" style="border-radius: 6px;" />
-          &nbsp;<b><a href="https://github.com/remotion-dev/remotion">remotion-dev/&#8203;remotion</a></b>&nbsp;<sub>⭐&nbsp;76.1k</sub>
+          &nbsp;<b><a href="https://github.com/remotion-dev/remotion">remotion-dev/&#8203;remotion</a></b>&nbsp;<sub>⭐&nbsp;76.2k</sub>
         </td>
         <td align="left" width="52%">
           <a href="https://github.com/remotion-dev/remotion/pull/13577">`@remotion/shapes`: clamp makeCallout corner radius to adjacent edge lengths (#13577)</a>
@@ -284,7 +284,7 @@
       <tr>
         <td align="left" width="34%">
           <img src="https://github.com/heygen-com.png?size=64" width="28" height="28" align="absmiddle" style="border-radius: 6px;" />
-          &nbsp;<b><a href="https://github.com/heygen-com/hyperframes">heygen-com/&#8203;hyperframes</a></b>&nbsp;<sub>⭐&nbsp;91.3k</sub>
+          &nbsp;<b><a href="https://github.com/heygen-com/hyperframes">heygen-com/&#8203;hyperframes</a></b>&nbsp;<sub>⭐&nbsp;91.5k</sub>
         </td>
         <td align="left" width="52%">
           <a href="https://github.com/heygen-com/hyperframes/pull/8708">feat(cli): support visibleDuring assertion in motion spec (#8708)</a>
