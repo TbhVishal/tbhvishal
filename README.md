@@ -181,10 +181,24 @@
       <tr>
         <td align="left" width="34%">
           <img src="https://github.com/meta.png?size=64" width="28" height="28" align="absmiddle" style="border-radius: 6px;" />
-          &nbsp;<b><a href="https://github.com/meta/astryx">meta/&#8203;astryx</a></b>&nbsp;<sub>⭐&nbsp;33.5k</sub>
+          &nbsp;<b><a href="https://github.com/meta/astryx">meta/&#8203;astryx</a></b>&nbsp;<sub>⭐&nbsp;33.6k</sub>
         </td>
         <td align="left" width="52%">
           <a href="https://github.com/meta/astryx/pull/12173">perf(core): merge props in a single pass (#12173)</a><br/><a href="https://github.com/meta/astryx/pull/12088">perf(core): skip the kebab-case regex for lowercase theme prop names (#12088)</a>
+        </td>
+        <td align="center" width="14%" nowrap>
+          <img src="https://img.shields.io/badge/Merged-8957E5?style=flat-square&logo=github&logoColor=white" alt="Merged" />
+        </td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td align="left" width="34%">
+          <img src="https://github.com/BuilderIO.png?size=64" width="28" height="28" align="absmiddle" style="border-radius: 6px;" />
+          &nbsp;<b><a href="https://github.com/BuilderIO/agent-native">BuilderIO/&#8203;agent-native</a></b>&nbsp;<sub>⭐&nbsp;7.8k</sub>
+        </td>
+        <td align="left" width="52%">
+          <a href="https://github.com/BuilderIO/agent-native/pull/9039">fix(core): surface Telegram webhook errors and validate secret (#9018) (#9039)</a>
         </td>
         <td align="center" width="14%" nowrap>
           <img src="https://img.shields.io/badge/Merged-8957E5?style=flat-square&logo=github&logoColor=white" alt="Merged" />
@@ -247,20 +261,6 @@
         </td>
       </tr>
     </tbody>
-    <tbody>
-      <tr>
-        <td align="left" width="34%">
-          <img src="https://github.com/nagcas.png?size=64" width="28" height="28" align="absmiddle" style="border-radius: 6px;" />
-          &nbsp;<b><a href="https://github.com/nagcas/TerraQuakeApi">nagcas/&#8203;TerraQuakeApi</a></b>&nbsp;<sub>⭐&nbsp;34</sub>
-        </td>
-        <td align="left" width="52%">
-          <a href="https://github.com/nagcas/TerraQuakeApi/pull/105">Improve README documentation" and description summarizing the changes (e.g., "Fixed broken emojis, added setup guide, updated API docs, improved navigation links (#105)</a>
-        </td>
-        <td align="center" width="14%" nowrap>
-          <img src="https://img.shields.io/badge/Merged-8957E5?style=flat-square&logo=github&logoColor=white" alt="Merged" />
-        </td>
-      </tr>
-    </tbody>
   </table>
 </div>
 
@@ -284,7 +284,7 @@
       <tr>
         <td align="left" width="34%">
           <img src="https://github.com/heygen-com.png?size=64" width="28" height="28" align="absmiddle" style="border-radius: 6px;" />
-          &nbsp;<b><a href="https://github.com/heygen-com/hyperframes">heygen-com/&#8203;hyperframes</a></b>&nbsp;<sub>⭐&nbsp;91.5k</sub>
+          &nbsp;<b><a href="https://github.com/heygen-com/hyperframes">heygen-com/&#8203;hyperframes</a></b>&nbsp;<sub>⭐&nbsp;91.6k</sub>
         </td>
         <td align="left" width="52%">
           <a href="https://github.com/heygen-com/hyperframes/pull/8708">feat(cli): support visibleDuring assertion in motion spec (#8708)</a>
@@ -353,20 +353,6 @@
     <tbody>
       <tr>
         <td align="left" width="34%">
-          <img src="https://github.com/BuilderIO.png?size=64" width="28" height="28" align="absmiddle" style="border-radius: 6px;" />
-          &nbsp;<b><a href="https://github.com/BuilderIO/agent-native">BuilderIO/&#8203;agent-native</a></b>&nbsp;<sub>⭐&nbsp;7.8k</sub>
-        </td>
-        <td align="left" width="52%">
-          <a href="https://github.com/BuilderIO/agent-native/pull/9039">fix(core): surface Telegram webhook errors and validate secret (#9018) (#9039)</a>
-        </td>
-        <td align="center" width="14%" nowrap>
-          <img src="https://img.shields.io/badge/Open_PR-238636?style=flat-square&logo=github&logoColor=white" alt="Open PR" />
-        </td>
-      </tr>
-    </tbody>
-    <tbody>
-      <tr>
-        <td align="left" width="34%">
           <img src="https://github.com/unjs.png?size=64" width="28" height="28" align="absmiddle" style="border-radius: 6px;" />
           &nbsp;<b><a href="https://github.com/unjs/ofetch">unjs/&#8203;ofetch</a></b>&nbsp;<sub>⭐&nbsp;5.4k</sub>
         </td>
@@ -389,6 +375,20 @@
         </td>
         <td align="center" width="14%" nowrap>
           <img src="https://img.shields.io/badge/Open_PR-238636?style=flat-square&logo=github&logoColor=white" alt="Open PR" />
+        </td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td align="left" width="34%">
+          <img src="https://github.com/nagcas.png?size=64" width="28" height="28" align="absmiddle" style="border-radius: 6px;" />
+          &nbsp;<b><a href="https://github.com/nagcas/TerraQuakeApi">nagcas/&#8203;TerraQuakeApi</a></b>&nbsp;<sub>⭐&nbsp;34</sub>
+        </td>
+        <td align="left" width="52%">
+          <a href="https://github.com/nagcas/TerraQuakeApi/pull/105">Improve README documentation" and description summarizing the changes (e.g., "Fixed broken emojis, added setup guide, updated API docs, improved navigation links (#105)</a>
+        </td>
+        <td align="center" width="14%" nowrap>
+          <img src="https://img.shields.io/badge/Merged-8957E5?style=flat-square&logo=github&logoColor=white" alt="Merged" />
         </td>
       </tr>
     </tbody>
